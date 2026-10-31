@@ -1,3 +1,12 @@
+
+# Permite ejecutar este archivo directamente desde cualquier directorio.
+import sys
+from pathlib import Path as _ProjectPath
+_PROJECT_ROOT = _ProjectPath(__file__).resolve().parents[2]
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+from project_paths import ROOT
+
 import json
 from pathlib import Path
 
@@ -24,8 +33,8 @@ def main():
 
     set_seed(42)
 
-    salida = Path("outputs/roberta_squad2")
-    registros = Path("logs/roberta_squad2")
+    salida = ROOT / "outputs/roberta_squad2"
+    registros = ROOT / "logs/roberta_squad2"
     salida.mkdir(parents=True, exist_ok=True)
     registros.mkdir(parents=True, exist_ok=True)
 
@@ -33,16 +42,16 @@ def main():
 
     #Cargamos el modelo base y el tokenizador descargados.
     tokenizer = AutoTokenizer.from_pretrained(
-        "models/roberta-base",
+        str(ROOT / "models/roberta-base"),
         use_fast=True,
     )
 
     model = AutoModelForQuestionAnswering.from_pretrained(
-        "models/roberta-base"
+        str(ROOT / "models/roberta-base")
     )
 
     #Usamos todos los ejemplos de entrenamiento de SQuAD 2.0.
-    datos = load_from_disk("data/squad_v2")
+    datos = load_from_disk(str(ROOT / "data/squad_v2"))
     muestra = datos["train"].shuffle(seed=42)
 
     def preparar(ejemplos):
@@ -152,7 +161,7 @@ def main():
         per_device_eval_batch_size=2,
         gradient_accumulation_steps=4,
         learning_rate=2e-5,
-        warmup_ratio=0.1,
+        warmup_steps=4944,
         weight_decay=0.01,
         lr_scheduler_type="linear",
         fp16=True,

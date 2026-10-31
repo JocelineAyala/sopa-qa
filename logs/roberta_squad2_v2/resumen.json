@@ -1,0 +1,13 @@
+{
+  "best_model_checkpoint": "outputs\\roberta_squad2_v2\\checkpoint-10500",
+  "best_validation_loss": 0.8357451558113098,
+  "global_step": 13500,
+  "training_metrics": {
+    "train_runtime": 7682.1662,
+    "train_samples_per_second": 28.116,
+    "train_steps_per_second": 1.757,
+    "total_flos": 4.232948667352934e+16,
+    "train_loss": 1.1028554371021413,
+    "epoch": 1.6385580555597699
+  }
+}

@@ -1,10 +1,13 @@
+
+from project_paths import ROOT
+
 from pathlib import Path
 from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 BASE_MODEL = "FacebookAI/roberta-base"
-MODEL_DIR = Path("models/roberta-base")
-DATA_DIR = Path("data/squad_v2")
+MODEL_DIR = Path(str(ROOT / "models/roberta-base"))
+DATA_DIR = Path(str(ROOT / "data/squad_v2"))
 
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 DATA_DIR.parent.mkdir(parents=True, exist_ok=True)

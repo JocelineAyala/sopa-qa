@@ -1,0 +1,1712 @@
+{
+  "data\\squad_v2\\dataset_dict.json": [
+    35,
+    1793370506304569800,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-076089920e688ae9.arrow": [
+    1061720,
+    1793388930789729800,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-37a4e20513ffa65f.arrow": [
+    256364704,
+    1793476989394114600,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-4778e9c6a31d290a.arrow": [
+    1061720,
+    1793486796630732100,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-78f471f98b6e5798.arrow": [
+    500816,
+    1793388931250461500,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-e97a447c2717c137.arrow": [
+    256364704,
+    1793466771178236900,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-f2edb05f99460d29.arrow": [
+    256364704,
+    1793390295689332900,
+    null
+  ],
+  "data\\squad_v2\\train\\cache-fbfb86cb297eae54.arrow": [
+    256364704,
+    1793481117126090500,
+    null
+  ],
+  "data\\squad_v2\\train\\data-00000-of-00001.arrow": [
+    116819624,
+    1793370506600259400,
+    null
+  ],
+  "data\\squad_v2\\train\\dataset_info.json": [
+    1320,
+    1793370506613029800,
+    null
+  ],
+  "data\\squad_v2\\train\\state.json": [
+    262,
+    1793370506612031000,
+    null
+  ],
+  "data\\squad_v2\\validation\\cache-5a7549099d9f9758.arrow": [
+    3972048,
+    1793390296807640000,
+    null
+  ],
+  "data\\squad_v2\\validation\\cache-83b2595a381f5968.arrow": [
+    97016,
+    1793390295723732200,
+    null
+  ],
+  "data\\squad_v2\\validation\\cache-a5b0ba7f23b8a92f.arrow": [
+    3972048,
+    1793466772253205100,
+    null
+  ],
+  "data\\squad_v2\\validation\\data-00000-of-00001.arrow": [
+    11669968,
+    1793370506630043900,
+    null
+  ],
+  "data\\squad_v2\\validation\\dataset_info.json": [
+    1320,
+    1793370506635048500,
+    null
+  ],
+  "data\\squad_v2\\validation\\state.json": [
+    267,
+    1793370506633048200,
+    null
+  ],
+  "models\\roberta-base\\config.json": [
+    713,
+    1793370500886606500,
+    null
+  ],
+  "models\\roberta-base\\model.safetensors": [
+    496250232,
+    1793370501703574800,
+    null
+  ],
+  "models\\roberta-base\\tokenizer.json": [
+    3558642,
+    1793370484105014600,
+    null
+  ],
+  "models\\roberta-base\\tokenizer_config.json": [
+    405,
+    1793370484089014800,
+    null
+  ],
+  "outputs\\prueba\\historial.json": [
+    891,
+    1793388944767007200,
+    null
+  ],
+  "outputs\\prueba\\trainer_state.json": [
+    1774,
+    1793388944765989500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\all_results.json": [
+    230,
+    1793474458844177500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\trainer_state.json": [
+    33514,
+    1793474458843174600,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\train_results.json": [
+    230,
+    1793474458843174600,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\all_results.json": [
+    224,
+    1793478515114995500,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\trainer_state.json": [
+    8851,
+    1793478515114005900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\train_results.json": [
+    224,
+    1793478515114005900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\trainer_state.json": [
+    11818,
+    1793483015050387500,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\trainer_state.json": [
+    5256,
+    1793487075312018000,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\trainer_state.json": [
+    6449,
+    1793488724686431500,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\candidato\\config.json": [
+    714,
+    1793488724689398900,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\candidato\\model.safetensors": [
+    496250232,
+    1793488726631381900,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\candidato\\tokenizer.json": [
+    3558907,
+    1793488726707419000,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\candidato\\tokenizer_config.json": [
+    601,
+    1793488726678906000,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\candidato\\training_args.bin": [
+    5265,
+    1793488726677894000,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\config.json": [
+    714,
+    1793488511268735800,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\model.safetensors": [
+    496250232,
+    1793488511867637600,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\optimizer.pt": [
+    992619531,
+    1793488513270367200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\rng_state.pth": [
+    14645,
+    1793488513302358700,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\scaler.pt": [
+    1383,
+    1793488513294980200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\scheduler.pt": [
+    1465,
+    1793488513293975200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\tokenizer.json": [
+    3558907,
+    1793488511912533200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\tokenizer_config.json": [
+    601,
+    1793488511879029200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\trainer_state.json": [
+    2381,
+    1793488513303359400,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-200\\training_args.bin": [
+    5265,
+    1793488511917828100,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\config.json": [
+    714,
+    1793488721373788700,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\model.safetensors": [
+    496250232,
+    1793488721869658100,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\optimizer.pt": [
+    992619531,
+    1793488723823338200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\rng_state.pth": [
+    14645,
+    1793488723826344200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\scaler.pt": [
+    1383,
+    1793488723824343600,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\scheduler.pt": [
+    1465,
+    1793488723824343600,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\tokenizer.json": [
+    3558907,
+    1793488721894260800,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\tokenizer_config.json": [
+    601,
+    1793488721874766600,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\trainer_state.json": [
+    6181,
+    1793488723826344200,
+    null
+  ],
+  "outputs\\roberta_squad2_v6\\checkpoint-800\\training_args.bin": [
+    5265,
+    1793488721895261900,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\candidato\\config.json": [
+    714,
+    1793487075313999600,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\candidato\\model.safetensors": [
+    496250232,
+    1793487076649466900,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\candidato\\tokenizer.json": [
+    3558907,
+    1793487076698823200,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\candidato\\tokenizer_config.json": [
+    601,
+    1793487076679981400,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\candidato\\training_args.bin": [
+    5265,
+    1793487076678982900,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\config.json": [
+    714,
+    1793487001719699700,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\model.safetensors": [
+    496250232,
+    1793487002804892300,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\optimizer.pt": [
+    992619531,
+    1793487006278243100,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\rng_state.pth": [
+    14645,
+    1793487006282245600,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\scaler.pt": [
+    1383,
+    1793487006281249400,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\scheduler.pt": [
+    1465,
+    1793487006280247400,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\tokenizer.json": [
+    3558907,
+    1793487003261488400,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\tokenizer_config.json": [
+    601,
+    1793487003238473200,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\trainer_state.json": [
+    3696,
+    1793487006283248900,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-400\\training_args.bin": [
+    5265,
+    1793487003263487200,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\config.json": [
+    714,
+    1793487072254305500,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\model.safetensors": [
+    496250232,
+    1793487072682752300,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\optimizer.pt": [
+    992619531,
+    1793487074460399700,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\rng_state.pth": [
+    14645,
+    1793487074490991600,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\scaler.pt": [
+    1383,
+    1793487074489990500,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\scheduler.pt": [
+    1465,
+    1793487074488995500,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\tokenizer.json": [
+    3558907,
+    1793487072728226200,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\tokenizer_config.json": [
+    601,
+    1793487072702234700,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\trainer_state.json": [
+    4988,
+    1793487074491991800,
+    null
+  ],
+  "outputs\\roberta_squad2_v5_rapido\\checkpoint-600\\training_args.bin": [
+    5265,
+    1793487072730225200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\adapter_config.json": [
+    1214,
+    1793483015073059900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\adapter_model.safetensors": [
+    1192800,
+    1793483015071053000,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\README.md": [
+    5218,
+    1793483015060445900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\tokenizer.json": [
+    3558907,
+    1793483015110569300,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\tokenizer_config.json": [
+    601,
+    1793483015095062200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\adaptador_candidato\\training_args.bin": [
+    5265,
+    1793483015095062200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\candidato\\config.json": [
+    714,
+    1793483447860684600,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\candidato\\model.safetensors": [
+    496250232,
+    1793483448099864500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\candidato\\tokenizer.json": [
+    3558893,
+    1793483448155835900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\candidato\\tokenizer_config.json": [
+    601,
+    1793483448105966500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\adapter_config.json": [
+    1214,
+    1793482004322774200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\adapter_model.safetensors": [
+    1192800,
+    1793482004320774900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\optimizer.pt": [
+    2414539,
+    1793482004358876300,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\README.md": [
+    5218,
+    1793482004309263800,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\rng_state.pth": [
+    14645,
+    1793482004361986300,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\scaler.pt": [
+    1383,
+    1793482004360989500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\scheduler.pt": [
+    1465,
+    1793482004359986800,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\tokenizer.json": [
+    3558907,
+    1793482004345775600,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\tokenizer_config.json": [
+    601,
+    1793482004323774500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\trainer_state.json": [
+    5592,
+    1793482004362984200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-1500\\training_args.bin": [
+    5265,
+    1793482004346776600,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\adapter_config.json": [
+    1214,
+    1793482761152837900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\adapter_model.safetensors": [
+    1192800,
+    1793482761149734200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\optimizer.pt": [
+    2414539,
+    1793482761181836900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\README.md": [
+    5218,
+    1793482761140055000,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\rng_state.pth": [
+    14645,
+    1793482761183838900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\scaler.pt": [
+    1383,
+    1793482761182837200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\scheduler.pt": [
+    1465,
+    1793482761181836900,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\tokenizer.json": [
+    3558907,
+    1793482761170837100,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\tokenizer_config.json": [
+    601,
+    1793482761153841000,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\trainer_state.json": [
+    10061,
+    1793482761184838400,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3000\\training_args.bin": [
+    5265,
+    1793482761171838000,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\adapter_config.json": [
+    1214,
+    1793483014988366100,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\adapter_model.safetensors": [
+    1192800,
+    1793483014982431600,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\optimizer.pt": [
+    2414539,
+    1793483015017879100,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\README.md": [
+    5218,
+    1793483014973429300,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\rng_state.pth": [
+    14645,
+    1793483015019881400,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\scaler.pt": [
+    1383,
+    1793483015018879500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\scheduler.pt": [
+    1465,
+    1793483015017879100,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\tokenizer.json": [
+    3558907,
+    1793483015007880600,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\tokenizer_config.json": [
+    601,
+    1793483014989373500,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\trainer_state.json": [
+    11546,
+    1793483015020883400,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\checkpoint-3500\\training_args.bin": [
+    5265,
+    1793483015008881200,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\modelo\\config.json": [
+    714,
+    1793483476242141100,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\modelo\\model.safetensors": [
+    496250232,
+    1793483476681513700,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\modelo\\tokenizer.json": [
+    3558907,
+    1793483476737780800,
+    null
+  ],
+  "outputs\\roberta_squad2_v4_lora\\modelo\\tokenizer_config.json": [
+    601,
+    1793483476717247000,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\candidato\\config.json": [
+    714,
+    1793478515116994100,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\candidato\\model.safetensors": [
+    496250232,
+    1793478515457556400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\candidato\\tokenizer.json": [
+    3558907,
+    1793478515501475200,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\candidato\\tokenizer_config.json": [
+    601,
+    1793478515485034400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\candidato\\training_args.bin": [
+    5265,
+    1793478515484025400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\config.json": [
+    714,
+    1793478252255827400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\model.safetensors": [
+    496250232,
+    1793478253041190400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\optimizer.pt": [
+    992619531,
+    1793478253984714000,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\rng_state.pth": [
+    14645,
+    1793478253986922900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\scaler.pt": [
+    1383,
+    1793478253986922900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\scheduler.pt": [
+    1465,
+    1793478253985717900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\tokenizer.json": [
+    3558907,
+    1793478253069194600,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\tokenizer_config.json": [
+    601,
+    1793478253049202300,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\trainer_state.json": [
+    7089,
+    1793478253988091900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2000\\training_args.bin": [
+    5265,
+    1793478253070194400,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\config.json": [
+    714,
+    1793478513093360300,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\model.safetensors": [
+    496250232,
+    1793478513383873900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\optimizer.pt": [
+    992619531,
+    1793478514328313900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\rng_state.pth": [
+    14645,
+    1793478514331314300,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\scaler.pt": [
+    1383,
+    1793478514329315700,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\scheduler.pt": [
+    1465,
+    1793478514329315700,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\tokenizer.json": [
+    3558907,
+    1793478513422037800,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\tokenizer_config.json": [
+    601,
+    1793478513393029500,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\trainer_state.json": [
+    8583,
+    1793478514332314700,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-2500\\training_args.bin": [
+    5265,
+    1793478513424034600,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\config.json": [
+    714,
+    1793477441953936900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\model.safetensors": [
+    496250232,
+    1793477443312253600,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\optimizer.pt": [
+    992619531,
+    1793477445647584500,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\rng_state.pth": [
+    14645,
+    1793477445700859700,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\scaler.pt": [
+    1383,
+    1793477445693878100,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\scheduler.pt": [
+    1465,
+    1793477445692871800,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\tokenizer.json": [
+    3558907,
+    1793477443371626800,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\tokenizer_config.json": [
+    601,
+    1793477443327256300,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\trainer_state.json": [
+    2606,
+    1793477445700859700,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\checkpoint-500\\training_args.bin": [
+    5265,
+    1793477443391127900,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\modelo\\config.json": [
+    714,
+    1793478528510900300,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\modelo\\model.safetensors": [
+    496250232,
+    1793478528750033200,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\modelo\\tokenizer.json": [
+    3558907,
+    1793478528808373000,
+    null
+  ],
+  "outputs\\roberta_squad2_v3\\modelo\\tokenizer_config.json": [
+    601,
+    1793478528791872200,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\config.json": [
+    714,
+    1793472342019608000,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\model.safetensors": [
+    496250232,
+    1793472343157938400,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\optimizer.pt": [
+    992619531,
+    1793472345664745300,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\rng_state.pth": [
+    14645,
+    1793472345689810000,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\scaler.pt": [
+    1383,
+    1793472345686796800,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\scheduler.pt": [
+    1465,
+    1793472345685426100,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\tokenizer.json": [
+    3558907,
+    1793472343193563800,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\tokenizer_config.json": [
+    404,
+    1793472343160950300,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\trainer_state.json": [
+    26069,
+    1793472345690974500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-10500\\training_args.bin": [
+    5201,
+    1793472343195561700,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\config.json": [
+    714,
+    1793474135264896300,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\model.safetensors": [
+    496250232,
+    1793474135995089700,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\optimizer.pt": [
+    992619531,
+    1793474137438918000,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\rng_state.pth": [
+    14645,
+    1793474137442191900,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\scaler.pt": [
+    1383,
+    1793474137439919000,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\scheduler.pt": [
+    1465,
+    1793474137439919000,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\tokenizer.json": [
+    3558907,
+    1793474136035768400,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\tokenizer_config.json": [
+    404,
+    1793474136011792700,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\trainer_state.json": [
+    32044,
+    1793474137444343900,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13000\\training_args.bin": [
+    5201,
+    1793474136036766700,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\config.json": [
+    714,
+    1793474452377871400,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\model.safetensors": [
+    496250232,
+    1793474452941044200,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\optimizer.pt": [
+    992619531,
+    1793474456529650900,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\rng_state.pth": [
+    14645,
+    1793474456545223500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\scaler.pt": [
+    1383,
+    1793474456543223500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\scheduler.pt": [
+    1465,
+    1793474456543223500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\tokenizer.json": [
+    3558907,
+    1793474452977107100,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\tokenizer_config.json": [
+    404,
+    1793474452947045500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\trainer_state.json": [
+    33239,
+    1793474456547222200,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\checkpoint-13500\\training_args.bin": [
+    5201,
+    1793474452978112800,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\modelo\\config.json": [
+    714,
+    1793474457465104500,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\modelo\\model.safetensors": [
+    496250232,
+    1793474458773590700,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\modelo\\tokenizer.json": [
+    3558907,
+    1793474458839550200,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\modelo\\tokenizer_config.json": [
+    404,
+    1793474458816519400,
+    null
+  ],
+  "outputs\\roberta_squad2_v2\\modelo\\training_args.bin": [
+    5201,
+    1793474458840547500,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\config.json": [
+    714,
+    1793395625762019900,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\model.safetensors": [
+    496250232,
+    1793395626360516100,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\optimizer.pt": [
+    992619531,
+    1793395627752327200,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\rng_state.pth": [
+    14645,
+    1793395627755325400,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\scaler.pt": [
+    1383,
+    1793395627754325700,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\scheduler.pt": [
+    1465,
+    1793395627753326000,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\tokenizer.json": [
+    3558642,
+    1793395626398002500,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\tokenizer_config.json": [
+    404,
+    1793395626372030500,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\trainer_state.json": [
+    35464,
+    1793395627757325400,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-14500\\training_args.bin": [
+    5201,
+    1793395626399001300,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\config.json": [
+    714,
+    1793406553470558000,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\model.safetensors": [
+    496250232,
+    1793406554190215900,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\optimizer.pt": [
+    992619531,
+    1793406555645307800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\rng_state.pth": [
+    14645,
+    1793406555660556700,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\scaler.pt": [
+    1383,
+    1793406555657558700,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\scheduler.pt": [
+    1465,
+    1793406555655480800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\tokenizer.json": [
+    3558642,
+    1793406554224471500,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\tokenizer_config.json": [
+    404,
+    1793406554193271300,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\trainer_state.json": [
+    108237,
+    1793406555665065800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45000\\training_args.bin": [
+    5201,
+    1793406554225691000,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\config.json": [
+    714,
+    1793406741347660700,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\model.safetensors": [
+    496250232,
+    1793406742249469700,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\optimizer.pt": [
+    992619531,
+    1793406744491727600,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\rng_state.pth": [
+    14645,
+    1793406744506250900,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\scaler.pt": [
+    1383,
+    1793406744502254600,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\scheduler.pt": [
+    1465,
+    1793406744501233800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\tokenizer.json": [
+    3558642,
+    1793406742285100800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\tokenizer_config.json": [
+    404,
+    1793406742256983900,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\trainer_state.json": [
+    109434,
+    1793406744510778800,
+    null
+  ],
+  "outputs\\roberta_squad2\\checkpoint-45500\\training_args.bin": [
+    5201,
+    1793406742286102200,
+    null
+  ],
+  "outputs\\roberta_squad2\\modelo\\config.json": [
+    714,
+    1793410202687124300,
+    null
+  ],
+  "outputs\\roberta_squad2\\modelo\\model.safetensors": [
+    496250232,
+    1793410203339480000,
+    null
+  ],
+  "outputs\\roberta_squad2\\modelo\\tokenizer.json": [
+    3558642,
+    1793410203401905000,
+    null
+  ],
+  "outputs\\roberta_squad2\\modelo\\tokenizer_config.json": [
+    404,
+    1793410203359477600,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\config.json": [
+    714,
+    1793388935498753000,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\model.safetensors": [
+    496250232,
+    1793388936112616500,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\optimizer.pt": [
+    992619531,
+    1793388937298798900,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\rng_state.pth": [
+    14645,
+    1793388937303797000,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\scaler.pt": [
+    1383,
+    1793388937299802100,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\scheduler.pt": [
+    1465,
+    1793388937299802100,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\tokenizer.json": [
+    3558907,
+    1793388936143156800,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\tokenizer_config.json": [
+    404,
+    1793388936117614500,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\trainer_state.json": [
+    1158,
+    1793388937306797600,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-10\\training_args.bin": [
+    5201,
+    1793388936150151300,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\config.json": [
+    714,
+    1793388939902855100,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\model.safetensors": [
+    496250232,
+    1793388940895885600,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\optimizer.pt": [
+    992619531,
+    1793388943184217500,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\rng_state.pth": [
+    14645,
+    1793388943214236600,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\scaler.pt": [
+    1383,
+    1793388943213235800,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\scheduler.pt": [
+    1465,
+    1793388943212236400,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\tokenizer.json": [
+    3558907,
+    1793388940923184200,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\tokenizer_config.json": [
+    404,
+    1793388940902915300,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\trainer_state.json": [
+    1512,
+    1793388943215234700,
+    null
+  ],
+  "outputs\\prueba\\checkpoint-20\\training_args.bin": [
+    5201,
+    1793388940924213300,
+    null
+  ],
+  "outputs\\prueba\\modelo\\config.json": [
+    714,
+    1793388943219470200,
+    null
+  ],
+  "outputs\\prueba\\modelo\\model.safetensors": [
+    496250232,
+    1793388944690123800,
+    null
+  ],
+  "outputs\\prueba\\modelo\\tokenizer.json": [
+    3558907,
+    1793388944762994200,
+    null
+  ],
+  "outputs\\prueba\\modelo\\tokenizer_config.json": [
+    404,
+    1793388944737248800,
+    null
+  ],
+  "outputs\\prueba\\modelo\\training_args.bin": [
+    5201,
+    1793388944764990500,
+    null
+  ],
+  "logs\\comparacion_diagnostica.json": [
+    10804,
+    1793475716951146500,
+    "d2503f266f4f8a28b330209d95899855c5acabbbac590eb0a0b441882a8a788f"
+  ],
+  "logs\\roberta_squad2\\api_local.json": [
+    1510,
+    1793485558001005500,
+    "f58171743d120a36ef8f0f7f1859f387e9fc00c60c1c023f6001e409665b234a"
+  ],
+  "logs\\roberta_squad2\\api_tunel.json": [
+    1540,
+    1793489172264109800,
+    "644f43948fcbfff9a5ed0c60fbabc3418f04918f56125586ca5d91745f19be0b"
+  ],
+  "logs\\roberta_squad2\\configuracion.json": [
+    4112,
+    1793390901085477200,
+    "3afa3f8b4a3df8c404eadf9553c88d644a06dea3f3ef50c9599543b682c774f2"
+  ],
+  "logs\\roberta_squad2\\historial.json": [
+    101445,
+    1793406924211098000,
+    "7af96d445da8e8b3b0fcb53d488f440236f585499e9d0838ddc64e1da98cd3cf"
+  ],
+  "logs\\roberta_squad2\\loss.png": [
+    76782,
+    1793406924472642300,
+    "0327822044c6ec84f62c8c90b3cf3621f7b43c5fd9bd093f1b1ed39373712f04"
+  ],
+  "logs\\roberta_squad2\\metricas.json": [
+    2299,
+    1793410609808776400,
+    "0d50d53eda631826e9593452b381172fe3390d70007d1394a507a6b734a07380"
+  ],
+  "logs\\roberta_squad2\\metricas_umbral_final.json": [
+    1033,
+    1793462911355193800,
+    "fb52e39134df051e07a34fe0396061ba061704092a92fcd73c4469d64253a776"
+  ],
+  "logs\\roberta_squad2\\predicciones_calibracion.json": [
+    668960,
+    1793410510609269400,
+    "05e4caf2c87c3659a8be95c924972cde4be570af187c2c6c0c8e787b7c2bb8da"
+  ],
+  "logs\\roberta_squad2\\predicciones_evaluacion.json": [
+    3312295,
+    1793410609794078700,
+    "a65d6e84c39d279dd95b01c3946713088d018668496b2d92d1d4767dcecd4095"
+  ],
+  "logs\\roberta_squad2\\public_sample_inicial.json": [
+    1328,
+    1793410287971213100,
+    "bbd7180d8761b941a74818b55c06fc477f8f1703089ec3d2577e82b8cb22c742"
+  ],
+  "logs\\roberta_squad2\\umbral.json": [
+    526,
+    1793462911342767700,
+    "a534d0b2cb0eda484e5aa2d7a4e89f847bbffc04c277f4d6c04206550068c47a"
+  ],
+  "logs\\roberta_squad2_v2\\configuracion.json": [
+    4114,
+    1793466774064988400,
+    "310ce2b37fce3bdb0a5a842999fd162b7cfe33b33df7a7c7998314262a8744d3"
+  ],
+  "logs\\roberta_squad2_v2\\historial.json": [
+    30069,
+    1793474458865181800,
+    "16375d7935d141e3ec7f5fa8a697f82d96256dcb7665ea2a806a5f864b024341"
+  ],
+  "logs\\roberta_squad2_v2\\loss.png": [
+    60617,
+    1793474459240020500,
+    "eb0e3398dd212dbe62bf64a32f10f24b21a7344eff04e4e9d0776744cd241a46"
+  ],
+  "logs\\roberta_squad2_v2\\metricas.json": [
+    2300,
+    1793475303520411000,
+    "ba5bb33f5461604c68732fe507db8c86eede45060641928d64c6003b2d707647"
+  ],
+  "logs\\roberta_squad2_v2\\metricas_umbral_final.json": [
+    1032,
+    1793475325433585700,
+    "f9a0a6167ae67ea5332eb786c1a7b859cf0a2a8905943aa7b1abdf5b5a9087c2"
+  ],
+  "logs\\roberta_squad2_v2\\predicciones_calibracion.json": [
+    669002,
+    1793475207754097000,
+    "01f18a6b8715263c320e7635d0a411f6eeef56865295bf204ffe8f3857e0ed7e"
+  ],
+  "logs\\roberta_squad2_v2\\predicciones_evaluacion.json": [
+    3308588,
+    1793475303506379800,
+    "2652d9f5eadf182b7a0ef377f8d27874fad9a7a350b2aea1437e1dc67300befd"
+  ],
+  "logs\\roberta_squad2_v2\\public_sample_inicial.json": [
+    1337,
+    1793475486216764000,
+    "a17528638437cbc2ed49367d888e09031a1289a9b33dfbd532097159a37aab62"
+  ],
+  "logs\\roberta_squad2_v2\\resumen.json": [
+    408,
+    1793474458844177500,
+    "a22478312e009d5b405a13f631ef92854859043334e628a915804d23f42a88bf"
+  ],
+  "logs\\roberta_squad2_v2\\umbral.json": [
+    421,
+    1793475466277804300,
+    "7e00b0cc1c760976d5380e02ef4a81c7be51947aa1b2b3d3545957d636f0f720"
+  ],
+  "logs\\roberta_squad2_v2\\umbral_75_25.json": [
+    529,
+    1793475466271799200,
+    "37fc211454e55fd14539db16261ba9bf7f1cc045a9c22057c74fbca352f9eb9d"
+  ],
+  "logs\\roberta_squad2_v3\\baseline_v2.json": [
+    464,
+    1793477161137913200,
+    "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+  ],
+  "logs\\roberta_squad2_v3\\calidad.png": [
+    41448,
+    1793478529046289500,
+    "38a3f8a9850a417c6a1e8fa4d050a17f3e0b86d0608101f6bf5a4e0b71a121e3"
+  ],
+  "logs\\roberta_squad2_v3\\calidad_por_checkpoint.jsonl": [
+    3178,
+    1793478513090350200,
+    "bdb25ff12d3f361fcb405f0881d7f3a9e952a21fd9c3b207f2b69131e0c7af9a"
+  ],
+  "logs\\roberta_squad2_v3\\configuracion.json": [
+    4245,
+    1793477133406783500,
+    "57ca9c8757b9536c8c3710b7986d44fe4c13b9516984f82425a050b82ef0d63c"
+  ],
+  "logs\\roberta_squad2_v3\\historial.json": [
+    7221,
+    1793478528811396800,
+    "63a58a7daff2316bc940f9823f3ec6018c4cd87295ccc9c93c395bce87c4c1ee"
+  ],
+  "logs\\roberta_squad2_v3\\loss.png": [
+    67471,
+    1793478528943771800,
+    "9f003c68796918b9d52070a86adea35d89826dc32c60a56593ee222ea1bb8197"
+  ],
+  "logs\\roberta_squad2_v3\\metricas_candidato_9873.json": [
+    958,
+    1793479302902993900,
+    "3ae3a9142bce6b1002a72ff770d08ae086100ff69e185b18eb6281c1f86c6e0d"
+  ],
+  "logs\\roberta_squad2_v3\\metricas_evaluacion.json": [
+    990,
+    1793478825072574000,
+    "f42e662a5eefd20657c33a3cb25495b435355b1339508b6cb9b0883643a8890d"
+  ],
+  "logs\\roberta_squad2_v3\\particiones.json": [
+    66060,
+    1793477131555126300,
+    "c4d223247bd3a9cbf7a17c830c95a96fac75bdbe59021951fc9409d21fdb1c8f"
+  ],
+  "logs\\roberta_squad2_v3\\predicciones_desarrollo_candidato.json": [
+    653736,
+    1793478528076774200,
+    "014eb77e19b9cd356e04b0b97000bbd221b77f3cb744d0721f7d780ccb2f8a54"
+  ],
+  "logs\\roberta_squad2_v3\\predicciones_evaluacion.json": [
+    3308233,
+    1793478825113057800,
+    "98f82e9c029e23d86fd79b30428110951cf1b86451a2389aa8e9c74164a6a382"
+  ],
+  "logs\\roberta_squad2_v3\\resumen.json": [
+    1795,
+    1793478528810371600,
+    "8e170f7b33e14faf04a2d0cd06d144d9c794848deb393a34c8bd96b29dd4f540"
+  ],
+  "logs\\roberta_squad2_v3\\umbral.json": [
+    500,
+    1793478528809371000,
+    "eb3589de9417e2ae47777c0beb2c51db7804c810ca110a547b0ecb30ec9d0793"
+  ],
+  "logs\\roberta_squad2_v3\\umbral_candidato.json": [
+    470,
+    1793478528077774200,
+    "c1c0d65e0069a08e4d91ac1a59d399e538044df2c0c670978a6ec51450e2662d"
+  ],
+  "logs\\roberta_squad2_v4_lora\\baseline_v2.json": [
+    464,
+    1793481220856041600,
+    "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+  ],
+  "logs\\roberta_squad2_v4_lora\\calidad.png": [
+    40416,
+    1793483015797789600,
+    "5d2e4196a584783108fcc824e34b17b98bc4ea450583f77172e4ff8df2fb0c35"
+  ],
+  "logs\\roberta_squad2_v4_lora\\calidad_por_checkpoint.jsonl": [
+    4114,
+    1793483014964429500,
+    "3deaab7a09a2145f40a0c891e4b35c4421d91e60d768514c850780267313be40"
+  ],
+  "logs\\roberta_squad2_v4_lora\\comprobacion_fusion.json": [
+    499,
+    1793483447857092800,
+    "fc114a583ebb048856ca6e218e42dbaa4f1097ba9a01f646a1b0ad279f094c8e"
+  ],
+  "logs\\roberta_squad2_v4_lora\\configuracion.json": [
+    5718,
+    1793481191451792700,
+    "85d663a519cabfd99db344e6591f52766ca8c33f0e83e26bd221320705ad9f53"
+  ],
+  "logs\\roberta_squad2_v4_lora\\evaluacion_9873_candidato.json": [
+    914,
+    1793483844205528600,
+    "d6feb51cf77cdd419778709a2a500d5622a848e6a5c3885515bbb06cc2f08688"
+  ],
+  "logs\\roberta_squad2_v4_lora\\historial.json": [
+    9980,
+    1793483015199559200,
+    "2e7837b91532fec6e2dceb69c7e9c397692e5b62f1c4fb8a96f6a176a5014fde"
+  ],
+  "logs\\roberta_squad2_v4_lora\\loss.png": [
+    83008,
+    1793483015723299400,
+    "c45a6b63a1fa23ff310889244c91227f2ad1208739552fb1330fc06ca0127ffd"
+  ],
+  "logs\\roberta_squad2_v4_lora\\particiones.json": [
+    66060,
+    1793481189764631800,
+    "c4d223247bd3a9cbf7a17c830c95a96fac75bdbe59021951fc9409d21fdb1c8f"
+  ],
+  "logs\\roberta_squad2_v4_lora\\predicciones_desarrollo_candidato.json": [
+    666193,
+    1793483475932524100,
+    "873ba4dedcdd4eefe4706ae5ef9eeae193aa0b6aea15005846823f563a40ab82"
+  ],
+  "logs\\roberta_squad2_v4_lora\\resumen.json": [
+    2173,
+    1793483476746165000,
+    "a5d9985c8f3a7a2930b4f26b4f30415870369e0899b5acb6edf465771055efb3"
+  ],
+  "logs\\roberta_squad2_v4_lora\\umbral.json": [
+    414,
+    1793483476738781300,
+    "1fb8e9844b1662dd9b2215346951118b27d86a61b99f00c790d656230904016e"
+  ],
+  "logs\\roberta_squad2_v4_lora\\umbral_candidato.json": [
+    425,
+    1793483475933523000,
+    "658bd863457496a423238e44003a76745c9f7fd8f1a4cac659125c517dd84425"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\baseline_v2.json": [
+    464,
+    1793486866782108800,
+    "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\configuracion.json": [
+    4146,
+    1793486866849047800,
+    "d9a1bb528381d3e486c194796d1f078c814a5fa658d3c9485a3ba49f67f0df3d"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\historial.json": [
+    3865,
+    1793487089435252200,
+    "a4677dd1627fbb1a15751cdc1ff80d46ecdd7507c2af4194416efc9499028970"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\loss.png": [
+    42906,
+    1793487090289965300,
+    "026227dc0e6f45df555224ced28f39c00e81dba2b98ec5d993c1cf72d6633bfd"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\metricas_evaluacion.json": [
+    996,
+    1793488099643838300,
+    "59a20a8decc2ad55cfee11d5540e9f709f33f70e6f98d1c34e867b1fcfe986d9"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\mineria_train.json": [
+    1084115,
+    1793486837282206800,
+    "8d748ff61eb19daf1d7d247ded7443a9e77728a7a8f1465488b529419197dbfb"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\muestra_entrenamiento.json": [
+    175751,
+    1793486837286209900,
+    "6df4b24846f6c952cb0f58aec4aed5fefbb56f4a3ad8c101ecdc2e11ca628545"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\particiones.json": [
+    66158,
+    1793486866783108900,
+    "c1a48e02d5f21fb426afda586cf029658b721f5f7d2ece356d47ba152b4a8cf5"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\predicciones_desarrollo_candidato.json": [
+    653443,
+    1793487089412612400,
+    "9f6b452c968b32a5668ddab0696ecddec501af2e8019859d1a421ac070b62254"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\predicciones_evaluacion.json": [
+    3301297,
+    1793488099680837800,
+    "5b6c55055581a65b8c823376c656597d9758102779833966183326388fade5dd"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\resumen.json": [
+    1383,
+    1793487089414626100,
+    "31390c6b1f3905edd8a8f48d0637c38b02d8c3f1c682dfbe6d72e076338c1883"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\umbral.json": [
+    415,
+    1793487089413618500,
+    "83726f16a90cc33fb6e32ec7de3a33a83f5a3f7a32b89f0abde8c8bb3209c19a"
+  ],
+  "logs\\roberta_squad2_v5_rapido\\umbral_candidato.json": [
+    415,
+    1793487089412612400,
+    "83726f16a90cc33fb6e32ec7de3a33a83f5a3f7a32b89f0abde8c8bb3209c19a"
+  ],
+  "logs\\roberta_squad2_v6\\baseline_v2.json": [
+    464,
+    1793488443265559500,
+    "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+  ],
+  "logs\\roberta_squad2_v6\\configuracion.json": [
+    4140,
+    1793488443318063100,
+    "32aa2913c7b018ea2b952019d71371bad841f727fcac912fb7bfcc205b48ab1c"
+  ],
+  "logs\\roberta_squad2_v6\\historial.json": [
+    4990,
+    1793488739897296100,
+    "f8aa6fc997ce038c174afa45d09a59c7ed95f3b56a456e3ef3cd6ffcc1e48e75"
+  ],
+  "logs\\roberta_squad2_v6\\loss.png": [
+    49949,
+    1793488740474050600,
+    "47391f5fcc03ba600e696a7b0666519fe1262a83d899fd940dca27101400d42e"
+  ],
+  "logs\\roberta_squad2_v6\\mineria_train.json": [
+    2169741,
+    1793488412475573000,
+    "924af46bbdc33da09939dba1b6b43d0a1b4c73f23ca3dcbfa59b1f7f38d920fa"
+  ],
+  "logs\\roberta_squad2_v6\\muestra_entrenamiento.json": [
+    267887,
+    1793488412483571900,
+    "31d4d15af631684882b2be070ca1868d28a636dd2bde0d4c4a1421af264aefde"
+  ],
+  "logs\\roberta_squad2_v6\\particiones.json": [
+    66158,
+    1793488443266562300,
+    "c1a48e02d5f21fb426afda586cf029658b721f5f7d2ece356d47ba152b4a8cf5"
+  ],
+  "logs\\roberta_squad2_v6\\predicciones_desarrollo_candidato.json": [
+    654115,
+    1793488739893232700,
+    "63d70b6874b0bffbea62aceec93a8c4de59b259fd1d751c6cf3a7226f50a72d6"
+  ],
+  "logs\\roberta_squad2_v6\\resumen.json": [
+    1381,
+    1793488739894233600,
+    "d4676360569343fc0b4b5a871e94792d960d41f9f4c169d62b0624e8dd0a802b"
+  ],
+  "logs\\roberta_squad2_v6\\umbral.json": [
+    409,
+    1793488739894233600,
+    "e15c9cba56f2d766a2fc875c5242ccc202060dfab08cade0bf57790028f895ba"
+  ],
+  "logs\\roberta_squad2_v6\\umbral_candidato.json": [
+    405,
+    1793488739893232700,
+    "d79fe991125c8a9c5d172c221e763c05fddac224d991ffea06fb92c7344aaa3e"
+  ],
+  "logs\\roberta_squad2_v3\\comparacion_umbrales_v2\\comparacion.json": [
+    2570,
+    1793480585424137500,
+    "5336eecdc7a2d8a891ee58a8371f5b217271d59014d17fa698f9e677a193574b"
+  ],
+  "logs\\roberta_squad2_v3\\comparacion_umbrales_v2\\comparacion.txt": [
+    673,
+    1793480585436433800,
+    "a3974e12817c88a3cb0b7d740c0fa423556f87fd9c8f627323e839061bd5f6ce"
+  ],
+  "logs\\roberta_squad2_v3\\comparacion_umbrales_v2\\predicciones_desarrollo.json": [
+    668847,
+    1793480585435436800,
+    "6fc1d8edc36b11e660092a5bc075adf2ebaa701c31caa25cfc816f7226311daf"
+  ],
+  "logs\\roberta_squad2_v3\\comparacion_umbrales_v2\\umbral_candidato_em.json": [
+    542,
+    1793480585425141400,
+    "4f745095a98846dd33c2797a92508f06d108527c8031022ad3b777f19e297c91"
+  ],
+  "logs\\roberta_squad2_v3\\diagnostico_v2\\errores_v2.json": [
+    46322,
+    1793486037447804600,
+    "a8463be7a0a8ef51d656b20aed6c613c50776daaa52a8936d1a1bde84af5859c"
+  ],
+  "logs\\roberta_squad2_v3\\diagnostico_v2\\errores_v2.txt": [
+    45315,
+    1793486037448803400,
+    "f14f8900e20d3e7446c4d2d6b4845abdc395ae85588741e7c58b1a4371df2c7c"
+  ]
+}

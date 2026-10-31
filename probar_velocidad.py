@@ -1,17 +1,20 @@
+
+from project_paths import ROOT
+
 import json
 import time
 import torch
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 #Usamos el modelo que ya descargaste.
-ruta = "models/roberta-base"
+ruta = str(ROOT / "models/roberta-base")
 tokenizer = AutoTokenizer.from_pretrained(ruta)
 model = AutoModelForQuestionAnswering.from_pretrained(ruta)
 model.to("cpu")
 model.eval()
 
 #Probamos el contexto largo entregado por el docente.
-with open("public_sample.json", encoding="utf-8") as archivo:
+with open(str(ROOT / "public_sample.json"), encoding="utf-8") as archivo:
     ejemplos = json.load(archivo)["items"]
 
 ejemplo = next(x for x in ejemplos if x["id"] == "sample-05")

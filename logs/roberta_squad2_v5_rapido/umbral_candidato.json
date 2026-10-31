@@ -1,0 +1,13 @@
+{
+  "model_path": "outputs\\roberta_squad2_v5_rapido\\candidato",
+  "null_threshold": -1.720703125,
+  "null_rule": "return null if difference > null_threshold",
+  "difference": "minimum CLS score minus best span score",
+  "max_seq_length": 384,
+  "doc_stride": 128,
+  "max_answer_length": 30,
+  "top_k": 20,
+  "source": "v5_candidate",
+  "threshold_calibration_count": 1000,
+  "monitoring_count": 1000
+}

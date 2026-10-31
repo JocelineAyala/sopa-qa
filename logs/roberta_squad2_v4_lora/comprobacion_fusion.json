@@ -1,0 +1,23 @@
+{
+  "atol": 0.001,
+  "rtol": 0.0001,
+  "tensors": [
+    {
+      "passed": true,
+      "finite": true,
+      "max_abs_difference": 1.621246337890625e-05,
+      "mean_abs_difference": 2.449792191328015e-06
+    },
+    {
+      "passed": true,
+      "finite": true,
+      "max_abs_difference": 1.2874603271484375e-05,
+      "mean_abs_difference": 1.7770151998774963e-06
+    }
+  ],
+  "passed": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "fresh_load": true,
+  "probe_count": 3
+}

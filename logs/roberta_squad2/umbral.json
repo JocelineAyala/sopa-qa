@@ -1,0 +1,15 @@
+{
+  "model_path": "outputs/roberta_squad2/modelo",
+  "null_threshold": 3.7305948734283447,
+  "null_rule": "return null if difference > null_threshold",
+  "difference": "minimum CLS score minus best span score",
+  "max_seq_length": 384,
+  "doc_stride": 128,
+  "max_answer_length": 30,
+  "top_k": 20,
+  "selection_metric": "Calibration weighted EM; weighted F1 breaks ties",
+  "calibration_count": 2000,
+  "evaluation_count": 9873,
+  "expected_answerable_fraction": 0.75,
+  "expected_unanswerable_fraction": 0.25
+}

@@ -1,0 +1,20 @@
+{
+  "candidate_files": 119,
+  "suspicious_matches": [],
+  "excluded_paths": {
+    ".venv/Scripts/python.exe": true,
+    "venv/test.txt": true,
+    "models/probe": true,
+    "data/probe": true,
+    "outputs/probe": true,
+    "tools/cloudflared.exe": true,
+    ".env": true,
+    "credentials.json": true,
+    "secrets.json": true,
+    "probe.safetensors": true,
+    "probe.pt": true,
+    "probe.exe": true
+  },
+  "forbidden_candidates": [],
+  "method": "Patrones de tokens conocidos, secretos literales, claves privadas y reglas Git; no demuestra ausencia absoluta de secretos."
+}

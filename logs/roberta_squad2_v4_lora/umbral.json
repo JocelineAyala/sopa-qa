@@ -1,0 +1,13 @@
+{
+  "model_path": "outputs\\roberta_squad2_v4_lora\\modelo",
+  "source": "parent_v2",
+  "null_threshold": -0.5847749710083008,
+  "null_rule": "return null if difference > null_threshold",
+  "difference": "minimum CLS score minus best span score",
+  "max_seq_length": 384,
+  "doc_stride": 128,
+  "max_answer_length": 30,
+  "top_k": 20,
+  "threshold_calibration_count": 1000,
+  "monitoring_count": 1000
+}

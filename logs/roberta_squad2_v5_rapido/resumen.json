@@ -1,0 +1,53 @@
+{
+  "selected": "v5_candidate",
+  "baseline_v2": {
+    "overall": {
+      "count": 1000,
+      "EM": 78.6,
+      "F1": 80.93600634816877
+    },
+    "answerable": {
+      "count": 486,
+      "EM": 73.66255144032922,
+      "F1": 78.46914886454472
+    },
+    "unanswerable": {
+      "count": 514,
+      "EM": 83.26848249027238,
+      "F1": 83.26848249027238
+    },
+    "harmonic_EM": 78.17152186112953,
+    "balanced_EM": 78.4655169653008
+  },
+  "candidate": {
+    "overall": {
+      "count": 1000,
+      "EM": 79.5,
+      "F1": 81.66057587822591
+    },
+    "answerable": {
+      "count": 486,
+      "EM": 73.86831275720165,
+      "F1": 78.31394213626727
+    },
+    "unanswerable": {
+      "count": 514,
+      "EM": 84.8249027237354,
+      "F1": 84.8249027237354
+    },
+    "harmonic_EM": 78.96837208833011,
+    "balanced_EM": 79.34660774046853
+  },
+  "selected_threshold": -1.720703125,
+  "best_candidate_checkpoint": "C:\\proyecto-qa\\outputs\\roberta_squad2_v5_rapido\\checkpoint-400",
+  "global_step": 600,
+  "training_metrics": {
+    "train_runtime": 207.4376,
+    "train_samples_per_second": 23.139,
+    "train_steps_per_second": 2.892,
+    "total_flos": 939688461411840.0,
+    "train_loss": 1.0571280034383137,
+    "epoch": 1.6492434662998625
+  },
+  "note": "Solo se selecciona con desarrollo reutilizado; API sin modificar."
+}

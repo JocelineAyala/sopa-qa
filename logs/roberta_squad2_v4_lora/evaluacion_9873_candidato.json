@@ -1,0 +1,34 @@
+{
+  "configuration": {
+    "model_path": "outputs\\roberta_squad2_v4_lora\\candidato",
+    "source": "v4_lora_candidate",
+    "null_threshold": -1.7999563217163086,
+    "null_rule": "return null if difference > null_threshold",
+    "difference": "minimum CLS score minus best span score",
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "top_k": 20,
+    "threshold_calibration_count": 1000,
+    "monitoring_count": 1000
+  },
+  "metrics": {
+    "overall": {
+      "count": 9873,
+      "EM": 79.17552922110808,
+      "F1": 82.05511791022239
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 73.67144877753081,
+      "F1": 79.41607983989164
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 84.70755483346872,
+      "F1": 84.70755483346872
+    },
+    "harmonic_EM": 78.80499491348442,
+    "balanced_EM": 79.18950180549976
+  }
+}

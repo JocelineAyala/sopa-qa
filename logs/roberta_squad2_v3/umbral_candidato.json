@@ -1,0 +1,14 @@
+{
+  "model_path": "outputs\\roberta_squad2_v3\\candidato",
+  "null_threshold": -2.4765625,
+  "null_rule": "return null if difference > null_threshold",
+  "difference": "minimum CLS score minus best span score",
+  "max_seq_length": 384,
+  "doc_stride": 128,
+  "max_answer_length": 30,
+  "top_k": 20,
+  "selection_metric": "Calibration harmonic mean of class EM",
+  "source": "v3_candidate",
+  "threshold_calibration_count": 1000,
+  "monitoring_count": 1000
+}

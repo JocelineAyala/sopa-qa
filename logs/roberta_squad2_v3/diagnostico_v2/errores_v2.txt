@@ -1,0 +1,587 @@
+DIAGNOSTICO V2: 1000 PREGUNTAS DE SEGUIMIENTO
+{
+  "overall": {
+    "count": 1000,
+    "EM": 78.6,
+    "F1": 80.93600634816877
+  },
+  "answerable": {
+    "count": 486,
+    "EM": 73.66255144032922,
+    "F1": 78.46914886454472
+  },
+  "unanswerable": {
+    "count": 514,
+    "EM": 83.26848249027238,
+    "F1": 83.26848249027238
+  },
+  "harmonic_EM": 78.17152186112953,
+  "balanced_EM": 78.4655169653008
+}
+
+CONTEOS EN LAS 1000 PREGUNTAS
+{
+  "aciertos": 786,
+  "respuesta_en_pregunta_sin_respuesta": 86,
+  "rechazo_incorrecto": 76,
+  "extraccion_con_solapamiento": 37,
+  "extraccion_sin_solapamiento": 15
+}
+
+MUESTRA DISTRIBUIDA ENTRE TIPOS; NO ESTIMA SU FRECUENCIA.
+El solapamiento no demuestra un error de limites; requiere revision.
+
+CASO 1: extraccion_con_solapamiento
+{
+  "id": "572746addd62a815002e9a5f",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "Along with sport and art, what is a type of talent scholarship?",
+  "contexto": "Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g. sport scholarship, art scholarship, academic scholarship), financial need, or tax credit scholarships that might be available.",
+  "respuestas_aceptadas": [
+    "academic",
+    "academic",
+    "academic"
+  ],
+  "prediccion": "academic scholarship",
+  "mejor_fragmento": "academic scholarship",
+  "f1_fragmento": 66.67,
+  "diferencia": -3.1630897521972656,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -2.578314781188965
+}
+
+CASO 2: extraccion_sin_solapamiento
+{
+  "id": "572ffabf04bcaa1900d76f9f",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What term do Islamists think should be applied to them?",
+  "contexto": "Islamists have asked the question, \"If Islam is a way of life, how can we say that those who want to live by its principles in legal, social, political, economic, and political spheres of life are not Muslims, but Islamists and believe in Islamism, not [just] Islam?\" Similarly, a writer for the International Crisis Group maintains that \"the conception of 'political Islam'\" is a creation of Americans to explain the Iranian Islamic Revolution and apolitical Islam was a historical fluke of the \"short-lived era of the heyday of secular Arab nationalism between 1945 and 1970\", and it is quietist/non-political Islam, not Islamism, that requires explanation.",
+  "respuestas_aceptadas": [
+    "Muslims",
+    "Muslims"
+  ],
+  "prediccion": "Islamism",
+  "mejor_fragmento": "Islamism",
+  "f1_fragmento": 0.0,
+  "diferencia": -7.708139896392822,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -7.1233649253845215
+}
+
+CASO 3: rechazo_incorrecto
+{
+  "id": "572fd6aa04bcaa1900d76da1",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "Who may change the date by up to a month, on the proposal of the PO?",
+  "contexto": "Under the Scotland Act 1998, ordinary general elections for the Scottish Parliament are held on the first Thursday in May every four years (1999, 2003, 2007 and so on). The date of the poll may be varied by up to one month either way by the Monarch on the proposal of the Presiding Officer. If the Parliament itself resolves that it should be dissolved (with at least two-thirds of the Members voting in favour), or if the Parliament fails to nominate one of its members to be First Minister within 28 days of a General Election or of the position becoming vacant, the Presiding Officer proposes a date for an extraordinary general election and the Parliament is dissolved by the Queen by royal proclamation. Extraordinary general elections are in addition to ordinary general elections, unless held less than six months before the due date of an ordinary general election, in which case they supplant it. The following ordinary election reverts to the first Thursday in May, a multiple of four years after 1999 (i.e., 5 May 2011, 7 May 2015, etc.).",
+  "respuestas_aceptadas": [
+    "the Monarch",
+    "Monarch",
+    "the Monarch"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "the Monarch",
+  "f1_fragmento": 100.0,
+  "diferencia": 4.194512367248535,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 4.779287338256836
+}
+
+CASO 4: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5ad40480604f3c001a3ffdd2",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": " In what battle were the Mongols joined by the Tran?",
+  "contexto": "Kublai's government faced financial difficulties after 1279. Wars and construction projects had drained the Mongol treasury. Efforts to raise and collect tax revenues were plagued by corruption and political scandals. Mishandled military expeditions followed the financial problems. Kublai's second invasion of Japan in 1281 failed because of an inauspicious typhoon. Kublai botched his campaigns against Annam, Champa, and Java, but won a Pyrrhic victory against Burma. The expeditions were hampered by disease, an inhospitable climate, and a tropical terrain unsuitable for the mounted warfare of the Mongols. The Tran dynasty which ruled Annam (Dai Viet) crushed and defeated the Mongols at the Battle of Bạch Đằng (1288). The Chinese region of Fujian was the original home of the Chinese Tran (Chen) clan before they migrated under Trần Kinh (陳京, Chén Jīng) to Dai Viet and whose descendants established the Trần dynasty which ruled Vietnam Đại Việt, and certain members of the clan could still speak Chinese such as when a Yuan dynasty envoy had a meeting with the Chinese-speaking Trần prince Trần Quốc Tuấn (later King Trần Hưng Đạo) in 1282. Professor Liam Kelley noted that people from Song dynasty China like Zhao Zhong and Xu Zongdao fled to Tran dynasty ruled Vietnam after the Mongol invasion of the Song and they helped the Tran fight against the Mongol invasion. The Tran dynasty originated from the Fujian region of China as did the Daoist cleric Xu Zongdao who recorded the Mongol invasion and referred to them as \"Northern bandits\". Annam, Burma, and Champa recognized Mongol hegemony and established tributary relations with the Yuan dynasty.",
+  "respuestas_aceptadas": [],
+  "prediccion": "Battle of Bạch Đằng",
+  "mejor_fragmento": "Battle of Bạch Đằng",
+  "f1_fragmento": 0.0,
+  "diferencia": -2.3040900230407715,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -1.7193150520324707
+}
+
+CASO 5: extraccion_con_solapamiento
+{
+  "id": "5729a3716aef05140015506c",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "What is another piece created by Olivier Messiaen?",
+  "contexto": "Prime numbers have influenced many artists and writers. The French composer Olivier Messiaen used prime numbers to create ametrical music through \"natural phenomena\". In works such as La Nativité du Seigneur (1935) and Quatre études de rythme (1949–50), he simultaneously employs motifs with lengths given by different prime numbers to create unpredictable rhythms: the primes 41, 43, 47 and 53 appear in the third étude, \"Neumes rythmiques\". According to Messiaen this way of composing was \"inspired by the movements of nature, movements of free and unequal durations\".",
+  "respuestas_aceptadas": [
+    "Quatre études de rythme",
+    "Quatre études de rythme",
+    "Quatre études de rythme",
+    "Quatre études de rythme"
+  ],
+  "prediccion": "La Nativité du Seigneur (1935) and Quatre études de rythme",
+  "mejor_fragmento": "La Nativité du Seigneur (1935) and Quatre études de rythme",
+  "f1_fragmento": 57.14,
+  "diferencia": -7.0801472663879395,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -6.495372295379639
+}
+
+CASO 6: extraccion_sin_solapamiento
+{
+  "id": "571ccc00dd7acb1400e4c15d",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What process is responsible for the planet's oxygen content?",
+  "contexto": "The unusually high concentration of oxygen gas on Earth is the result of the oxygen cycle. This biogeochemical cycle describes the movement of oxygen within and between its three main reservoirs on Earth: the atmosphere, the biosphere, and the lithosphere. The main driving factor of the oxygen cycle is photosynthesis, which is responsible for modern Earth's atmosphere. Photosynthesis releases oxygen into the atmosphere, while respiration and decay remove it from the atmosphere. In the present equilibrium, production and consumption occur at the same rate of roughly 1/2000th of the entire atmospheric oxygen per year.",
+  "respuestas_aceptadas": [
+    "photosynthesis",
+    "photosynthesis",
+    "photosynthesis",
+    "photosynthesis",
+    "photosynthesis"
+  ],
+  "prediccion": "oxygen cycle",
+  "mejor_fragmento": "oxygen cycle",
+  "f1_fragmento": 0.0,
+  "diferencia": -1.0233235359191895,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -0.43854856491088867
+}
+
+CASO 7: rechazo_incorrecto
+{
+  "id": "573062662461fd1900a9cdfb",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "Informal imperialism is still dominant; however, less what?",
+  "contexto": "Imperialism is defined as \"A policy of extending a country’s power and influence through diplomacy or military force.\" Imperialism is particularly focused on the control that one group, often a state power, has on another group of people. This is often through various forms of \"othering\" (see other) based on racial, religious, or cultural stereotypes. There are \"formal\" or \"informal\" imperialisms. \"Formal imperialism\" is defined as \"physical control or full-fledged colonial rule\". \"Informal imperialism\" is less direct; however, it is still a powerful form of dominance.",
+  "respuestas_aceptadas": [
+    "direct",
+    "direct",
+    "direct",
+    "direct",
+    "direct"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "direct",
+  "f1_fragmento": 100.0,
+  "diferencia": 3.3757076263427734,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 3.960482597351074
+}
+
+CASO 8: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5a58dd513e1742001a15ce61",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "What is the outer core called?",
+  "contexto": "Seismologists can use the arrival times of seismic waves in reverse to image the interior of the Earth. Early advances in this field showed the existence of a liquid outer core (where shear waves were not able to propagate) and a dense solid inner core. These advances led to the development of a layered model of the Earth, with a crust and lithosphere on top, the mantle below (separated within itself by seismic discontinuities at 410 and 660 kilometers), and the outer core and inner core below that. More recently, seismologists have been able to create detailed images of wave speeds inside the earth in the same way a doctor images a body in a CT scan. These images have led to a much more detailed view of the interior of the Earth, and have replaced the simplified layered model with a much more dynamic model.",
+  "respuestas_aceptadas": [],
+  "prediccion": "liquid",
+  "mejor_fragmento": "liquid",
+  "f1_fragmento": 0.0,
+  "diferencia": -2.101663589477539,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -1.5168886184692383
+}
+
+CASO 9: extraccion_con_solapamiento
+{
+  "id": "5733cff84776f419006612b4",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "Where was war fought?",
+  "contexto": "The war was fought primarily along the frontiers between New France and the British colonies, from Virginia in the South to Nova Scotia in the North. It began with a dispute over control of the confluence of the Allegheny and Monongahela rivers, called the Forks of the Ohio, and the site of the French Fort Duquesne and present-day Pittsburgh, Pennsylvania. The dispute erupted into violence in the Battle of Jumonville Glen in May 1754, during which Virginia militiamen under the command of 22-year-old George Washington ambushed a French patrol.",
+  "respuestas_aceptadas": [
+    "primarily along the frontiers between New France and the British colonies",
+    "between New France and the British colonies",
+    "frontiers between New France and the British colonies",
+    "along the frontiers",
+    "Virginia in the South to Nova Scotia in the North"
+  ],
+  "prediccion": "along the frontiers between New France and the British colonies",
+  "mejor_fragmento": "along the frontiers between New France and the British colonies",
+  "f1_fragmento": 94.12,
+  "diferencia": -9.093145370483398,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -8.508370399475098
+}
+
+CASO 10: extraccion_sin_solapamiento
+{
+  "id": "571cde695efbb31900334e16",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "In what type of molecules are oxygen found?",
+  "contexto": "The element is found in almost all biomolecules that are important to (or generated by) life. Only a few common complex biomolecules, such as squalene and the carotenes, contain no oxygen. Of the organic compounds with biological relevance, carbohydrates contain the largest proportion by mass of oxygen. All fats, fatty acids, amino acids, and proteins contain oxygen (due to the presence of carbonyl groups in these acids and their ester residues). Oxygen also occurs in phosphate (PO3−\n4) groups in the biologically important energy-carrying molecules ATP and ADP, in the backbone and the purines (except adenine) and pyrimidines of RNA and DNA, and in bones as calcium phosphate and hydroxylapatite.",
+  "respuestas_aceptadas": [
+    "biomolecules",
+    "biomolecules",
+    "biomolecules",
+    "biomolecules",
+    "almost all biomolecules that are important to (or generated by) life"
+  ],
+  "prediccion": "phosphate",
+  "mejor_fragmento": "phosphate",
+  "f1_fragmento": 0.0,
+  "diferencia": -2.0690698623657227,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -1.4842948913574219
+}
+
+CASO 11: rechazo_incorrecto
+{
+  "id": "5727ed2e3acd2414000df003",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "What is the potential earnings for a job where there are few skilled workers but many available positions?",
+  "contexto": "A job where there are many workers willing to work a large amount of time (high supply) competing for a job that few require (low demand) will result in a low wage for that job. This is because competition between workers drives down the wage. An example of this would be jobs such as dish-washing or customer service. Competition amongst workers tends to drive down wages due to the expendable nature of the worker in relation to his or her particular job. A job where there are few able or willing workers (low supply), but a large need for the positions (high demand), will result in high wages for that job. This is because competition between employers for employees will drive up the wage. Examples of this would include jobs that require highly developed skills, rare abilities, or a high level of risk. Competition amongst employers tends to drive up wages due to the nature of the job, since there is a relative shortage of workers for the particular position. Professional and labor organizations may limit the supply of workers which results in higher demand and greater incomes for members. Members may also receive higher wages through collective bargaining, political influence, or corruption.",
+  "respuestas_aceptadas": [
+    "high wages",
+    "high wages",
+    "high wages"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "high wages",
+  "f1_fragmento": 100.0,
+  "diferencia": 1.9615235328674316,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 2.5462985038757324
+}
+
+CASO 12: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5ad3ed37604f3c001a3ff7a3",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "At what angle were the groups of pistons set in relation to one another in a 4-cylinder crank?",
+  "contexto": "With two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 90° out of phase with each other (quartered). When the double expansion group is duplicated, producing a 4-cylinder compound, the individual pistons within the group are usually balanced at 180°, the groups being set at 90° to each other. In one case (the first type of Vauclain compound), the pistons worked in the same phase driving a common crosshead and crank, again set at 90° as for a two-cylinder engine. With the 3-cylinder compound arrangement, the LP cranks were either set at 90° with the HP one at 135° to the other two, or in some cases all three cranks were set at 120°.[citation needed]",
+  "respuestas_aceptadas": [],
+  "prediccion": "90°",
+  "mejor_fragmento": "90°",
+  "f1_fragmento": 0.0,
+  "diferencia": -5.640021324157715,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -5.055246353149414
+}
+
+CASO 13: extraccion_con_solapamiento
+{
+  "id": "5705e3f252bb89140068966c",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "How many inhabitants does the Los Angeles area contain?",
+  "contexto": "Southern California includes the heavily built-up urban area stretching along the Pacific coast from Ventura, through the Greater Los Angeles Area and the Inland Empire, and down to Greater San Diego. Southern California's population encompasses seven metropolitan areas, or MSAs: the Los Angeles metropolitan area, consisting of Los Angeles and Orange counties; the Inland Empire, consisting of Riverside and San Bernardino counties; the San Diego metropolitan area; the Oxnard–Thousand Oaks–Ventura metropolitan area; the Santa Barbara metro area; the San Luis Obispo metropolitan area; and the El Centro area. Out of these, three are heavy populated areas: the Los Angeles area with over 12 million inhabitants, the Riverside-San Bernardino area with over four million inhabitants, and the San Diego area with over 3 million inhabitants. For CSA metropolitan purposes, the five counties of Los Angeles, Orange, Riverside, San Bernardino, and Ventura are all combined to make up the Greater Los Angeles Area with over 17.5 million people. With over 22 million people, southern California contains roughly 60 percent of California's population.",
+  "respuestas_aceptadas": [
+    "12 million",
+    "over 12 million inhabitants",
+    "12 million"
+  ],
+  "prediccion": "over 12 million",
+  "mejor_fragmento": "over 12 million",
+  "f1_fragmento": 85.71,
+  "diferencia": -10.450542449951172,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -9.865767478942871
+}
+
+CASO 14: extraccion_sin_solapamiento
+{
+  "id": "57269e3bf1498d1400e8e517",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What happens secondly if a Directive's deadline is not met?",
+  "contexto": "First, if a Directive's deadline for implementation is not met, the member state cannot enforce conflicting laws, and a citizen may rely on the Directive in such an action (so called \"vertical\" direct effect). So, in Pubblico Ministero v Ratti because the Italian government had failed to implement a Directive 73/173/EEC on packaging and labelling solvents by the deadline, it was estopped from enforcing a conflicting national law from 1963 against Mr Ratti's solvent and varnish business. A member state could \"not rely, as against individuals, on its own failure to perform the obligations which the Directive entails.\" Second, a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company. So, in CIA Security v Signalson and Securitel the Court of Justice held that a business called CIA Security could defend itself from allegations by competitors that it had not complied with a Belgian decree from 1991 about alarm systems, on the basis that it had not been notified to the Commission as a Directive required. Third, if a Directive gives expression to a \"general principle\" of EU law, it can be invoked between private non-state parties before its deadline for implementation. This follows from Kücükdeveci v Swedex GmbH & Co KG where the German Civil Code §622 stated that the years people worked under the age of 25 would not count towards the increasing statutory notice before dismissal. Ms Kücükdeveci worked for 10 years, from age 18 to 28, for Swedex GmbH & Co KG before her dismissal. She claimed that the law not counting her years under age 25 was unlawful age discrimination under the Employment Equality Framework Directive. The Court of Justice held that the Directive could be relied on by her because equality was also a general principle of EU law. Third, if the defendant is an emanation of the state, even if not central government, it can still be bound by Directives. In Foster v British Gas plc the Court of Justice held that Mrs Foster was entitled to bring a sex discrimination claim against her employer, British Gas plc, which made women retire at age 60 and men at 65, if (1) pursuant to a state measure, (2) it provided a public service, and (3) had special powers. This could also be true if the enterprise is privatised, as it was held with a water company that was responsible for basic water provision.",
+  "respuestas_aceptadas": [
+    "a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company",
+    "a citizen may rely on the Directive in such an action (so called \"vertical\" direct effect)",
+    "a citizen may rely on the Directive in such an action"
+  ],
+  "prediccion": "the member state cannot enforce conflicting laws",
+  "mejor_fragmento": "the member state cannot enforce conflicting laws",
+  "f1_fragmento": 0.0,
+  "diferencia": -4.292362213134766,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -3.707587242126465
+}
+
+CASO 15: rechazo_incorrecto
+{
+  "id": "570d529fb3d812140066d6bb",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "What part do events in Victoria's economy  play? ",
+  "contexto": "Major events also play a big part in tourism in Victoria, particularly cultural tourism and sports tourism. Most of these events are centred on Melbourne, but others occur in regional cities, such as the V8 Supercars and Australian Motorcycle Grand Prix at Phillip Island, the Grand Annual Steeplechase at Warrnambool and the Australian International Airshow at Geelong and numerous local festivals such as the popular Port Fairy Folk Festival, Queenscliff Music Festival, Bells Beach SurfClassic and the Bright Autumn Festival.",
+  "respuestas_aceptadas": [
+    "tourism",
+    "tourism",
+    "big"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "tourism",
+  "f1_fragmento": 100.0,
+  "diferencia": 1.4988183975219727,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 2.0835933685302734
+}
+
+CASO 16: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5ad273b5d7d075001a4294bb",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "In what year did Huguenots first move to present-day Saarland?",
+  "contexto": "Prince Louis de Condé, along with his sons Daniel and Osias,[citation needed] arranged with Count Ludwig von Nassau-Saarbrücken to establish a Huguenot community in present-day Saarland in 1604. The Count supported mercantilism and welcomed technically skilled immigrants into his lands, regardless of their religion. The Condés established a thriving glass-making works, which provided wealth to the principality for many years. Other founding families created enterprises based on textiles and such traditional Huguenot occupations in France. The community and its congregation remain active to this day, with descendants of many of the founding families still living in the region. Some members of this community emigrated to the United States in the 1890s.",
+  "respuestas_aceptadas": [],
+  "prediccion": "1604",
+  "mejor_fragmento": "1604",
+  "f1_fragmento": 0.0,
+  "diferencia": -4.512078285217285,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -3.9273033142089844
+}
+
+CASO 17: extraccion_con_solapamiento
+{
+  "id": "5726400589a1e219009ac5f0",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "What do Beriods use as teeth?",
+  "contexto": "Almost all ctenophores are predators, taking prey ranging from microscopic larvae and rotifers to the adults of small crustaceans; the exceptions are juveniles of two species, which live as parasites on the salps on which adults of their species feed. In favorable circumstances, ctenophores can eat ten times their own weight in a day. Only 100–150 species have been validated, and possibly another 25 have not been fully described and named. The textbook examples are cydippids with egg-shaped bodies and a pair of retractable tentacles fringed with tentilla (\"little tentacles\") that are covered with colloblasts, sticky cells that capture prey. The phylum has a wide range of body forms, including the flattened, deep-sea platyctenids, in which the adults of most species lack combs, and the coastal beroids, which lack tentacles and prey on other ctenophores by using huge mouths armed with groups of large, stiffened cilia that act as teeth. These variations enable different species to build huge populations in the same area, because they specialize in different types of prey, which they capture by as wide a range of methods as spiders use.",
+  "respuestas_aceptadas": [
+    "groups of large, stiffened cilia",
+    "stiffened cilia",
+    "stiffened cilia"
+  ],
+  "prediccion": "cilia",
+  "mejor_fragmento": "cilia",
+  "f1_fragmento": 66.67,
+  "diferencia": -2.930635452270508,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -2.345860481262207
+}
+
+CASO 18: extraccion_sin_solapamiento
+{
+  "id": "56de179dcffd8e1900b4b5db",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What country did the Normans invade in 1169?",
+  "contexto": "The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. Initially the Normans maintained a distinct culture and ethnicity. Yet, with time, they came to be subsumed into Irish culture to the point that it has been said that they became \"more Irish than the Irish themselves.\" The Normans settled mostly in an area in the east of Ireland, later known as the Pale, and also built many fine castles and settlements, including Trim Castle and Dublin Castle. Both cultures intermixed, borrowing from each other's language, culture and outlook. Norman descendants today can be recognised by their surnames. Names such as French, (De) Roche, Devereux, D'Arcy, Treacy and Lacy are particularly common in the southeast of Ireland, especially in the southern part of County Wexford where the first Norman settlements were established. Other Norman names such as Furlong predominate there. Another common Norman-Irish name was Morell (Murrell) derived from the French Norman name Morel. Other names beginning with Fitz (from the Norman for son) indicate Norman ancestry. These included Fitzgerald, FitzGibbons (Gibbons) dynasty, Fitzmaurice. Other families bearing such surnames as Barry (de Barra) and De Búrca (Burke) are also of Norman extraction.",
+  "respuestas_aceptadas": [
+    "Ireland",
+    "Ireland",
+    "Ireland"
+  ],
+  "prediccion": "Irish",
+  "mejor_fragmento": "Irish",
+  "f1_fragmento": 0.0,
+  "diferencia": -4.575270652770996,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -3.9904956817626953
+}
+
+CASO 19: rechazo_incorrecto
+{
+  "id": "5725cf3238643c19005acd62",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "How much is terra preta distributed over the Amazon forest?",
+  "contexto": "Terra preta (black earth), which is distributed over large areas in the Amazon forest, is now widely accepted as a product of indigenous soil management. The development of this fertile soil allowed agriculture and silviculture in the previously hostile environment; meaning that large portions of the Amazon rainforest are probably the result of centuries of human management, rather than naturally occurring as has previously been supposed. In the region of the Xingu tribe, remains of some of these large settlements in the middle of the Amazon forest were found in 2003 by Michael Heckenberger and colleagues of the University of Florida. Among those were evidence of roads, bridges and large plazas.",
+  "respuestas_aceptadas": [
+    "large areas",
+    "over large areas",
+    "over large areas"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "large areas",
+  "f1_fragmento": 100.0,
+  "diferencia": 0.9113979339599609,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 1.4961729049682617
+}
+
+CASO 20: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5a75054b97ca42001a521dd1",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "When did OPEC  issue a joint communique? ",
+  "contexto": "On August 15, 1971, the United States unilaterally pulled out of the Bretton Woods Accord. The US abandoned the Gold Exchange Standard whereby the value of the dollar had been pegged to the price of gold and all other currencies were pegged to the dollar, whose value was left to \"float\" (rise and fall according to market demand). Shortly thereafter, Britain followed, floating the pound sterling. The other industrialized nations followed suit with their respective currencies. Anticipating that currency values would fluctuate unpredictably for a time, the industrialized nations increased their reserves (by expanding their money supplies) in amounts far greater than before. The result was a depreciation of the dollar and other industrialized nations' currencies. Because oil was priced in dollars, oil producers' real income decreased. In September 1971, OPEC issued a joint communiqué stating that, from then on, they would price oil in terms of a fixed amount of gold.",
+  "respuestas_aceptadas": [],
+  "prediccion": "September 1971",
+  "mejor_fragmento": "September 1971",
+  "f1_fragmento": 0.0,
+  "diferencia": -10.289055347442627,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -9.704280376434326
+}
+
+CASO 21: extraccion_con_solapamiento
+{
+  "id": "57274712708984140094dbae",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "What are private schools that charge no tuition called?",
+  "contexto": "In the United Kingdom and several other Commonwealth countries including Australia and Canada, the use of the term is generally restricted to primary and secondary educational levels; it is almost never used of universities and other tertiary institutions. Private education in North America covers the whole gamut of educational activity, ranging from pre-school to tertiary level institutions. Annual tuition fees at K-12 schools range from nothing at so called 'tuition-free' schools to more than $45,000 at several New England preparatory schools.",
+  "respuestas_aceptadas": [
+    "'tuition-free",
+    "tuition-free",
+    "tuition-free"
+  ],
+  "prediccion": "tuition-free' schools",
+  "mejor_fragmento": "tuition-free' schools",
+  "f1_fragmento": 66.67,
+  "diferencia": -3.9271411895751953,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -3.3423662185668945
+}
+
+CASO 22: extraccion_sin_solapamiento
+{
+  "id": "57264a8cdd62a815002e808e",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "Which authority figure is designated to schedule and set the work of the EU?",
+  "contexto": "The European Commission is the main executive body of the European Union. Article 17(1) of the Treaty on European Union states the Commission should \"promote the general interest of the Union\" while Article 17(3) adds that Commissioners should be \"completely independent\" and not \"take instructions from any Government\". Under article 17(2), \"Union legislative acts may only be adopted on the basis of a Commission proposal, except where the Treaties provide otherwise.\" This means that the Commission has a monopoly on initiating the legislative procedure, although the Council is the \"de facto catalyst of many legislative initiatives\". The Parliament can also formally request the Commission to submit a legislative proposal but the Commission can reject such a suggestion, giving reasons. The Commission's President (currently an ex-Luxembourg Prime Minister, Jean-Claude Juncker) sets the agenda for the EU's work. Decisions are taken by a simple majority vote, usually through a \"written procedure\" of circulating the proposals and adopting if there are no objections.[citation needed] Since Ireland refused to consent to changes in the Treaty of Lisbon 2007, there remains one Commissioner for each of the 28 member states, including the President and the High Representative for Foreign and Security Policy (currently Federica Mogherini). The Commissioners (and most importantly, the portfolios they will hold) are bargained over intensively by the member states. The Commissioners, as a block, are then subject to a qualified majority vote of the Council to approve, and majority approval of the Parliament. The proposal to make the Commissioners be drawn from the elected Parliament, was not adopted in the Treaty of Lisbon. This means Commissioners are, through the appointment process, the unelected subordinates of member state governments.",
+  "respuestas_aceptadas": [
+    "The Commission's President",
+    "The Commission's President",
+    "The Commission's President",
+    "The Commission's President ("
+  ],
+  "prediccion": "Jean-Claude Juncker",
+  "mejor_fragmento": "Jean-Claude Juncker",
+  "f1_fragmento": 0.0,
+  "diferencia": -7.048290252685547,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -6.463515281677246
+}
+
+CASO 23: rechazo_incorrecto
+{
+  "id": "571cb27fdd7acb1400e4c135",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "What form of oxygen do marine animals acquire in greater amounts during cooler climatic conditions?",
+  "contexto": "Paleoclimatologists measure the ratio of oxygen-18 and oxygen-16 in the shells and skeletons of marine organisms to determine what the climate was like millions of years ago (see oxygen isotope ratio cycle). Seawater molecules that contain the lighter isotope, oxygen-16, evaporate at a slightly faster rate than water molecules containing the 12% heavier oxygen-18; this disparity increases at lower temperatures. During periods of lower global temperatures, snow and rain from that evaporated water tends to be higher in oxygen-16, and the seawater left behind tends to be higher in oxygen-18. Marine organisms then incorporate more oxygen-18 into their skeletons and shells than they would in a warmer climate. Paleoclimatologists also directly measure this ratio in the water molecules of ice core samples that are up to several hundreds of thousands of years old.",
+  "respuestas_aceptadas": [
+    "oxygen-18",
+    "oxygen-18",
+    "oxygen-16",
+    "oxygen-18",
+    "oxygen-18"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "oxygen-18",
+  "f1_fragmento": 100.0,
+  "diferencia": 1.3872222900390625,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 1.9719972610473633
+}
+
+CASO 24: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5ad4e3a15b96ef001a10a560",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "What cells do plants and animals both have?",
+  "contexto": "Unlike animals, plants lack phagocytic cells, but many plant immune responses involve systemic chemical signals that are sent through a plant. Individual plant cells respond to molecules associated with pathogens known as Pathogen-associated molecular patterns or PAMPs. When a part of a plant becomes infected, the plant produces a localized hypersensitive response, whereby cells at the site of infection undergo rapid apoptosis to prevent the spread of the disease to other parts of the plant. Systemic acquired resistance (SAR) is a type of defensive response used by plants that renders the entire plant resistant to a particular infectious agent. RNA silencing mechanisms are particularly important in this systemic response as they can block virus replication.",
+  "respuestas_aceptadas": [],
+  "prediccion": "phagocytic cells",
+  "mejor_fragmento": "phagocytic cells",
+  "f1_fragmento": 0.0,
+  "diferencia": -2.559873580932617,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -1.9750986099243164
+}
+
+CASO 25: extraccion_con_solapamiento
+{
+  "id": "5737958b1c456719005744c3",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "What is often misunderstood as the cause of matter rigidity?",
+  "contexto": "It is a common misconception to ascribe the stiffness and rigidity of solid matter to the repulsion of like charges under the influence of the electromagnetic force. However, these characteristics actually result from the Pauli exclusion principle.[citation needed] Since electrons are fermions, they cannot occupy the same quantum mechanical state as other electrons. When the electrons in a material are densely packed together, there are not enough lower energy quantum mechanical states for them all, so some of them must be in higher energy states. This means that it takes energy to pack them together. While this effect is manifested macroscopically as a structural force, it is technically only the result of the existence of a finite set of electron states.",
+  "respuestas_aceptadas": [
+    "repulsion of like charges",
+    "repulsion of like charges under the influence of the electromagnetic force",
+    "repulsion of like charges",
+    "the repulsion of like charges under the influence of the electromagnetic force"
+  ],
+  "prediccion": "electromagnetic force",
+  "mejor_fragmento": "electromagnetic force",
+  "f1_fragmento": 36.36,
+  "diferencia": -3.0909767150878906,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -2.50620174407959
+}
+
+CASO 26: extraccion_sin_solapamiento
+{
+  "id": "57300580b2c2fd140056874f",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What has increased sediment and delta growth also produced in the Rhine?",
+  "contexto": "Since ~3000 yr BP (= years Before Present), human impact is seen in the delta. As a result of increasing land clearance (Bronze Age agriculture), in the upland areas (central Germany), the sediment load of the Rhine has strongly increased and delta growth has sped up. This caused increased flooding and sedimentation, ending peat formation in the delta. The shifting of river channels to new locations, on the floodplain (termed avulsion), was the main process distributing sediment across the subrecent delta. Over the past 6000 years, approximately 80 avulsions have occurred. Direct human impact in the delta started with peat mining, for salt and fuel, from Roman times onward. This was followed by embankment, of the major distributaries and damming of minor distributaries, which took place in the 11–13th century AD. Thereafter, canals were dug, bends were short cut and groynes were built, to prevent the river's channels from migrating or silting up.",
+  "respuestas_aceptadas": [
+    "increased flooding and sedimentation",
+    "Bronze Age agriculture",
+    "increased flooding and sedimentation"
+  ],
+  "prediccion": "increasing land clearance",
+  "mejor_fragmento": "increasing land clearance",
+  "f1_fragmento": 0.0,
+  "diferencia": -1.128251075744629,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -0.5434761047363281
+}
+
+CASO 27: rechazo_incorrecto
+{
+  "id": "57287c2bff5b5019007da26f",
+  "tipo": "rechazo_incorrecto",
+  "pregunta": "What tends to lead to more money?",
+  "contexto": "Wealth concentration is a theoretical[according to whom?] process by which, under certain conditions, newly created wealth concentrates in the possession of already-wealthy individuals or entities. According to this theory, those who already hold wealth have the means to invest in new sources of creating wealth or to otherwise leverage the accumulation of wealth, thus are the beneficiaries of the new wealth. Over time, wealth condensation can significantly contribute to the persistence of inequality within society. Thomas Piketty in his book Capital in the Twenty-First Century argues that the fundamental force for divergence is the usually greater return of capital (r) than economic growth (g), and that larger fortunes generate higher returns [pp. 384 Table 12.2, U.S. university endowment size vs. real annual rate of return]",
+  "respuestas_aceptadas": [
+    "larger fortunes",
+    "wealth condensation",
+    "wealth"
+  ],
+  "prediccion": "",
+  "mejor_fragmento": "larger fortunes generate higher returns",
+  "f1_fragmento": 57.14,
+  "diferencia": 5.441275119781494,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": 6.026050090789795
+}
+
+CASO 28: respuesta_en_pregunta_sin_respuesta
+{
+  "id": "5a5507df134fea001a0e181e",
+  "tipo": "respuesta_en_pregunta_sin_respuesta",
+  "pregunta": "What kind of communication can be implemented?",
+  "contexto": "Packet mode communication may be implemented with or without intermediate forwarding nodes (packet switches or routers). Packets are normally forwarded by intermediate network nodes asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing, traffic shaping, or for differentiated or guaranteed quality of service, such as weighted fair queuing or leaky bucket. In case of a shared physical medium (such as radio or 10BASE5), the packets may be delivered according to a multiple access scheme.",
+  "respuestas_aceptadas": [],
+  "prediccion": "Packet mode",
+  "mejor_fragmento": "Packet mode",
+  "f1_fragmento": 0.0,
+  "diferencia": -6.81416130065918,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -6.229386329650879
+}
+
+CASO 29: extraccion_con_solapamiento
+{
+  "id": "5733647e4776f419006609ae",
+  "tipo": "extraccion_con_solapamiento",
+  "pregunta": "What commemorates Warsaw's heroic history?",
+  "contexto": "There are also many places commemorating the heroic history of Warsaw. Pawiak, an infamous German Gestapo prison now occupied by a Mausoleum of Memory of Martyrdom and the museum, is only the beginning of a walk in the traces of Heroic City. The Warsaw Citadel, an impressive 19th-century fortification built after the defeat of the November Uprising, was a place of martyr for the Poles. Another important monument, the statue of Little Insurgent located at the ramparts of the Old Town, commemorates the children who served as messengers and frontline troops in the Warsaw Uprising, while the impressive Warsaw Uprising Monument by Wincenty Kućma was erected in memory of the largest insurrection of World War II.",
+  "respuestas_aceptadas": [
+    "many places",
+    "many places"
+  ],
+  "prediccion": "There are also many places",
+  "mejor_fragmento": "There are also many places",
+  "f1_fragmento": 57.14,
+  "diferencia": -1.6025316715240479,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -1.017756700515747
+}
+
+CASO 30: extraccion_sin_solapamiento
+{
+  "id": "57297d421d046914007794e7",
+  "tipo": "extraccion_sin_solapamiento",
+  "pregunta": "What is the name of another type of modern primality test?",
+  "contexto": "Modern primality tests for general numbers n can be divided into two main classes, probabilistic (or \"Monte Carlo\") and deterministic algorithms. Deterministic algorithms provide a way to tell for sure whether a given number is prime or not. For example, trial division is a deterministic algorithm because, if performed correctly, it will always identify a prime number as prime and a composite number as composite. Probabilistic algorithms are normally faster, but do not completely prove that a number is prime. These tests rely on testing a given number in a partly random way. For example, a given test might pass all the time if applied to a prime number, but pass only with probability p if applied to a composite number. If we repeat the test n times and pass every time, then the probability that our number is composite is 1/(1-p)n, which decreases exponentially with the number of tests, so we can be as sure as we like (though never perfectly sure) that the number is prime. On the other hand, if the test ever fails, then we know that the number is composite.",
+  "respuestas_aceptadas": [
+    "deterministic",
+    "deterministic algorithms",
+    "deterministic",
+    "deterministic algorithms",
+    "deterministic algorithms"
+  ],
+  "prediccion": "probabilistic (or \"Monte Carlo\")",
+  "mejor_fragmento": "probabilistic (or \"Monte Carlo\")",
+  "f1_fragmento": 0.0,
+  "diferencia": -2.679361343383789,
+  "umbral": -0.5847749710083008,
+  "margen_no_respuesta": -2.0945863723754883
+}

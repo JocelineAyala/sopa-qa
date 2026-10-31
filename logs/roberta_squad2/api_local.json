@@ -1,0 +1,65 @@
+{
+  "base_url": "http://127.0.0.1:8000",
+  "results": [
+    {
+      "id": "sample-01",
+      "response": {
+        "id": "sample-01",
+        "answer": "16",
+        "start": 383,
+        "score": 0.9711241727579882
+      },
+      "contract_valid": true,
+      "reference_match": true,
+      "seconds": 0.17119960009586066
+    },
+    {
+      "id": "sample-02",
+      "response": {
+        "id": "sample-02",
+        "answer": "3.5 days",
+        "start": 437,
+        "score": 0.9996013117286333
+      },
+      "contract_valid": true,
+      "reference_match": true,
+      "seconds": 0.18165150005370378
+    },
+    {
+      "id": "sample-03",
+      "response": {
+        "id": "sample-03",
+        "answer": null,
+        "start": null,
+        "score": 0.9999999670786237
+      },
+      "contract_valid": true,
+      "reference_match": true,
+      "seconds": 0.17402330006007105
+    },
+    {
+      "id": "sample-04",
+      "response": {
+        "id": "sample-04",
+        "answer": "3 times",
+        "start": 310,
+        "score": 0.6330837928725552
+      },
+      "contract_valid": true,
+      "reference_match": false,
+      "seconds": 0.19077059999108315
+    },
+    {
+      "id": "sample-05",
+      "response": {
+        "id": "sample-05",
+        "answer": "50,257",
+        "start": 3157,
+        "score": 0.7438667336655648
+      },
+      "contract_valid": true,
+      "reference_match": true,
+      "seconds": 0.470798599999398
+    }
+  ]
+}

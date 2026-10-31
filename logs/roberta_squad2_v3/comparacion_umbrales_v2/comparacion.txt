@@ -1,0 +1,14 @@
+COMPARACION DE UMBRALES V2
+Umbral actual: -0.58477497
+Umbral candidato: -0.58476257
+Candidato elegido SOLO con calibracion; no se cambio la configuracion actual.
+
+CALIBRACION
+actual: EM global 81.10 | F1 global 84.00 | EM con respuesta 75.46 | EM sin respuesta 86.59
+candidato: EM global 81.10 | F1 global 84.07 | EM con respuesta 75.46 | EM sin respuesta 86.59
+
+SEGUIMIENTO
+actual: EM global 78.60 | F1 global 80.94 | EM con respuesta 73.66 | EM sin respuesta 83.27
+candidato: EM global 78.60 | F1 global 80.94 | EM con respuesta 73.66 | EM sin respuesta 83.27
+
+Las particiones de desarrollo ya se han reutilizado; una mejora aqui no garantiza mejora externa.

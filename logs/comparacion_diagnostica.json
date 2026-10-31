@@ -1,0 +1,306 @@
+{
+  "v1": {
+    "threshold": 3.7305948734283447,
+    "answerable_correct": 5,
+    "unanswerable_correct": 3,
+    "cases": [
+      {
+        "number": 1,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "Who launched the Aurora telescope?",
+        "references": [
+          "ESA"
+        ],
+        "answer": null,
+        "start": null,
+        "difference": 4.4683003425598145,
+        "EM": 0.0,
+        "F1": 0.0
+      },
+      {
+        "number": 2,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "When did NASA launch the Vega telescope?",
+        "references": [
+          "2021"
+        ],
+        "answer": "2021",
+        "start": 79,
+        "difference": -6.602524280548096,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 3,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "When did NASA launch the Aurora telescope?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 8.874957084655762,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 4,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "Who manufactured the Vega telescope?",
+        "references": [],
+        "answer": "NASA",
+        "start": 43,
+        "difference": 0.5451364517211914,
+        "EM": 0.0,
+        "F1": 0.0
+      },
+      {
+        "number": 5,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "When was the Orion satellite successfully launched?",
+        "references": [
+          "2023"
+        ],
+        "answer": "2023",
+        "start": 125,
+        "difference": -7.8442792892456055,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 6,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "Where was the Orion satellite successfully launched from?",
+        "references": [
+          "North Station",
+          "the North Station"
+        ],
+        "answer": "North Station",
+        "start": 139,
+        "difference": -4.35683536529541,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 7,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "From which station did the failed 2020 launch take place?",
+        "references": [],
+        "answer": "North Station",
+        "start": 139,
+        "difference": 2.5607409477233887,
+        "EM": 0.0,
+        "F1": 0.0
+      },
+      {
+        "number": 8,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "How much did the successful launch cost?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 6.913961887359619,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 9,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "When did River City open its first hospital?",
+        "references": [
+          "2015"
+        ],
+        "answer": "2015",
+        "start": 95,
+        "difference": -8.872895240783691,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 10,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many nurses did the hospital employ in 2022?",
+        "references": [
+          "240"
+        ],
+        "answer": "240",
+        "start": 123,
+        "difference": -9.64246940612793,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 11,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many doctors did the hospital employ in 2022?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 6.870721817016602,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 12,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many residents lived in River City in 2022?",
+        "references": [],
+        "answer": "240",
+        "start": 123,
+        "difference": 3.3460636138916016,
+        "EM": 0.0,
+        "F1": 0.0
+      }
+    ]
+  },
+  "v2": {
+    "threshold": -0.5847749710083008,
+    "answerable_correct": 6,
+    "unanswerable_correct": 5,
+    "cases": [
+      {
+        "number": 1,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "Who launched the Aurora telescope?",
+        "references": [
+          "ESA"
+        ],
+        "answer": "ESA",
+        "start": 0,
+        "difference": -3.3780832290649414,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 2,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "When did NASA launch the Vega telescope?",
+        "references": [
+          "2021"
+        ],
+        "answer": "2021",
+        "start": 79,
+        "difference": -6.983541488647461,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 3,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "When did NASA launch the Aurora telescope?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 6.302895545959473,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 4,
+        "context": "ESA launched the Aurora telescope in 2018. NASA launched the Vega telescope in 2021.",
+        "question": "Who manufactured the Vega telescope?",
+        "references": [],
+        "answer": "NASA",
+        "start": 43,
+        "difference": -5.324530601501465,
+        "EM": 0.0,
+        "F1": 0.0
+      },
+      {
+        "number": 5,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "When was the Orion satellite successfully launched?",
+        "references": [
+          "2023"
+        ],
+        "answer": "2023",
+        "start": 125,
+        "difference": -11.027727127075195,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 6,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "Where was the Orion satellite successfully launched from?",
+        "references": [
+          "North Station",
+          "the North Station"
+        ],
+        "answer": "North Station",
+        "start": 139,
+        "difference": -9.58590316772461,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 7,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "From which station did the failed 2020 launch take place?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": -0.05290412902832031,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 8,
+        "context": "In 2020, the team attempted to launch the Orion satellite, but the launch failed. The satellite was successfully launched in 2023 from the North Station.",
+        "question": "How much did the successful launch cost?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 5.7998921275138855,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 9,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "When did River City open its first hospital?",
+        "references": [
+          "2015"
+        ],
+        "answer": "2015",
+        "start": 95,
+        "difference": -11.493823289871216,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 10,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many nurses did the hospital employ in 2022?",
+        "references": [
+          "240"
+        ],
+        "answer": "240",
+        "start": 123,
+        "difference": -11.060829162597656,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 11,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many doctors did the hospital employ in 2022?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 7.173728942871094,
+        "EM": 1.0,
+        "F1": 1.0
+      },
+      {
+        "number": 12,
+        "context": "The 2010 census recorded 12,000 residents in River City. The city opened its first hospital in 2015. The hospital employed 240 nurses in 2022.",
+        "question": "How many residents lived in River City in 2022?",
+        "references": [],
+        "answer": null,
+        "start": null,
+        "difference": 8.196646571159363,
+        "EM": 1.0,
+        "F1": 1.0
+      }
+    ]
+  }
+}

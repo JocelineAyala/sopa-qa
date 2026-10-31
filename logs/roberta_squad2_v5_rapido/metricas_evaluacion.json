@@ -1,0 +1,35 @@
+{
+  "configuration": {
+    "model_path": "outputs\\roberta_squad2_v5_rapido\\candidato",
+    "null_threshold": -1.720703125,
+    "null_rule": "return null if difference > null_threshold",
+    "difference": "minimum CLS score minus best span score",
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "top_k": 20,
+    "source": "v5_candidate",
+    "threshold_calibration_count": 1000,
+    "monitoring_count": 1000
+  },
+  "metrics": {
+    "overall": {
+      "count": 9873,
+      "EM": 79.12488605287147,
+      "F1": 82.07550495273512
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 73.4087694483734,
+      "F1": 79.2951021213077
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 84.87002437043054,
+      "F1": 84.87002437043054
+    },
+    "harmonic_EM": 78.72443176713927,
+    "balanced_EM": 79.13939690940197
+  },
+  "note": "Evaluación ya utilizada en comparaciones anteriores; no es test independiente."
+}

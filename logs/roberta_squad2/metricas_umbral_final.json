@@ -1,0 +1,45 @@
+{
+  "threshold": 3.7305948734283447,
+  "calibration": {
+    "overall": {
+      "count": 2000,
+      "EM": 76.45,
+      "F1": 80.0605201588723,
+      "predicted_null": 831
+    },
+    "answerable": {
+      "count": 979,
+      "EM": 77.63023493360572,
+      "F1": 85.00616988533663,
+      "predicted_null": 62
+    },
+    "unanswerable": {
+      "count": 1021,
+      "EM": 75.31831537708129,
+      "F1": 75.31831537708129,
+      "predicted_null": 769
+    }
+  },
+  "evaluation": {
+    "overall": {
+      "count": 9873,
+      "EM": 75.83308011749214,
+      "F1": 79.44178492366953,
+      "predicted_null": 3981
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 77.73287532834917,
+      "F1": 84.93205547613408,
+      "predicted_null": 341
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 73.92363931762794,
+      "F1": 73.92363931762794,
+      "predicted_null": 3640
+    }
+  },
+  "evaluation_weighted_EM": 76.78056632566886,
+  "evaluation_weighted_F1": 82.17995143650755
+}

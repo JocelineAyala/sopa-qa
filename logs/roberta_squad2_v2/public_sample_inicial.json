@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sample-01",
+    "answer": "16",
+    "start": 383,
+    "null_score_difference": -4.100218772888184,
+    "expected": [
+      "16",
+      "16 attention heads"
+    ],
+    "offset_valid": true,
+    "reference_match": true,
+    "seconds": 1.7681720999535173
+  },
+  {
+    "id": "sample-02",
+    "answer": "3.5 days",
+    "start": 437,
+    "null_score_difference": -8.411706924438477,
+    "expected": [
+      "3.5 days"
+    ],
+    "offset_valid": true,
+    "reference_match": true,
+    "seconds": 0.07739349990151823
+  },
+  {
+    "id": "sample-03",
+    "answer": null,
+    "start": null,
+    "null_score_difference": 16.644361972808838,
+    "expected": null,
+    "offset_valid": true,
+    "reference_match": true,
+    "seconds": 0.07281280006282032
+  },
+  {
+    "id": "sample-04",
+    "answer": "3 times",
+    "start": 310,
+    "null_score_difference": -1.1302518844604492,
+    "expected": null,
+    "offset_valid": true,
+    "reference_match": false,
+    "seconds": 0.07946520007681102
+  },
+  {
+    "id": "sample-05",
+    "answer": "50,257",
+    "start": 3157,
+    "null_score_difference": -1.6509389877319336,
+    "expected": [
+      "50,257",
+      "50,257 tokens"
+    ],
+    "offset_valid": true,
+    "reference_match": true,
+    "seconds": 0.5941916999872774
+  }
+]

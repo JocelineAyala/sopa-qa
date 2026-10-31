@@ -1,3 +1,12 @@
+
+# Permite ejecutar este archivo directamente desde cualquier directorio.
+import sys
+from pathlib import Path as _ProjectPath
+_PROJECT_ROOT = _ProjectPath(__file__).resolve().parents[2]
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+from project_paths import ROOT
+
 import json
 from pathlib import Path
 
@@ -18,21 +27,21 @@ def main():
         raise RuntimeError("CUDA no está disponible.")
 
     set_seed(42)
-    salida = Path("outputs/prueba")
+    salida = ROOT / "outputs/prueba"
     salida.mkdir(parents=True, exist_ok=True)
 
     print("GPU:", torch.cuda.get_device_name(0))
 
     tokenizer = AutoTokenizer.from_pretrained(
-        "models/roberta-base",
+        str(ROOT / "models/roberta-base"),
         use_fast=True,
     )
     model = AutoModelForQuestionAnswering.from_pretrained(
-        "models/roberta-base"
+        str(ROOT / "models/roberta-base")
     )
 
     #Tomamos una muestra pequeña del conjunto de entrenamiento.
-    datos = load_from_disk("data/squad_v2")
+    datos = load_from_disk(str(ROOT / "data/squad_v2"))
     muestra = datos["train"].shuffle(seed=42).select(range(256))
 
     def preparar(ejemplos):

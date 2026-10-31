@@ -1,0 +1,95 @@
+{
+  "configuration": {
+    "model_path": "outputs/roberta_squad2_v2/modelo",
+    "null_threshold": -0.5847749710083008,
+    "null_rule": "return null if difference > null_threshold",
+    "difference": "minimum CLS score minus best span score",
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "top_k": 20,
+    "selection_metric": "calibration F1, then EM",
+    "calibration_count": 2000,
+    "evaluation_count": 9873
+  },
+  "calibration_threshold_0": {
+    "overall": {
+      "count": 2000,
+      "EM": 78.9,
+      "F1": 81.78462297115463,
+      "predicted_null": 959
+    },
+    "answerable": {
+      "count": 979,
+      "EM": 75.38304392236977,
+      "F1": 81.27604284199106,
+      "predicted_null": 119
+    },
+    "unanswerable": {
+      "count": 1021,
+      "EM": 82.2722820763957,
+      "F1": 82.2722820763957,
+      "predicted_null": 840
+    }
+  },
+  "calibration_tuned": {
+    "overall": {
+      "count": 2000,
+      "EM": 79.85,
+      "F1": 82.50351186004353,
+      "predicted_null": 1003
+    },
+    "answerable": {
+      "count": 979,
+      "EM": 74.5658835546476,
+      "F1": 79.9867453729183,
+      "predicted_null": 136
+    },
+    "unanswerable": {
+      "count": 1021,
+      "EM": 84.91674828599412,
+      "F1": 84.91674828599412,
+      "predicted_null": 867
+    }
+  },
+  "evaluation_threshold_0": {
+    "overall": {
+      "count": 9873,
+      "EM": 78.67922617238935,
+      "F1": 81.947981108963,
+      "predicted_null": 4608
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 75.40917357041826,
+      "F1": 81.93017124445146,
+      "predicted_null": 572
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 81.96588139723802,
+      "F1": 81.96588139723802,
+      "predicted_null": 4036
+    }
+  },
+  "evaluation_tuned": {
+    "overall": {
+      "count": 9873,
+      "EM": 79.05398561734022,
+      "F1": 82.25191660887714,
+      "predicted_null": 4796
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 74.15639523135987,
+      "F1": 80.53610278428823,
+      "predicted_null": 661
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 83.97644191714053,
+      "F1": 83.97644191714053,
+      "predicted_null": 4135
+    }
+  }
+}

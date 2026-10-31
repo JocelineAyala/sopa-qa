@@ -1,0 +1,32 @@
+{
+  "syntax_files": 36,
+  "local_imports_resolved": [
+    "app",
+    "project_paths",
+    "qa_v3",
+    "versiones.v1.evaluar",
+    "versiones.v4_lora.qa_v4"
+  ],
+  "external_imports_available": [
+    "datasets",
+    "fastapi",
+    "matplotlib",
+    "numpy",
+    "peft",
+    "pydantic",
+    "torch",
+    "tqdm",
+    "transformers"
+  ],
+  "imports_from_other_cwd": true,
+  "api": {
+    "model": "outputs\\roberta_squad2_v2\\modelo",
+    "configuration": "logs\\roberta_squad2_v2\\umbral.json",
+    "threshold": -0.5847749710083008,
+    "params": 124056578,
+    "warmup": "ok",
+    "device": "cpu"
+  },
+  "protected_files_checked": 342,
+  "protected_files_changed": []
+}

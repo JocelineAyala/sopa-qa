@@ -1,0 +1,35 @@
+{
+  "configuration": {
+    "model_path": "outputs\\roberta_squad2_v3\\candidato",
+    "null_threshold": -2.4765625,
+    "null_rule": "return null if difference > null_threshold",
+    "difference": "minimum CLS score minus best span score",
+    "max_seq_length": 384,
+    "doc_stride": 128,
+    "max_answer_length": 30,
+    "top_k": 20,
+    "selection_metric": "Calibration harmonic mean of class EM",
+    "source": "v3_candidate",
+    "threshold_calibration_count": 1000,
+    "monitoring_count": 1000
+  },
+  "metrics": {
+    "overall": {
+      "count": 9873,
+      "EM": 78.88179884533577,
+      "F1": 81.7455914071027
+    },
+    "answerable": {
+      "count": 4949,
+      "EM": 73.146090119216,
+      "F1": 78.85920872142314
+    },
+    "unanswerable": {
+      "count": 4924,
+      "EM": 84.64662875710805,
+      "F1": 84.64662875710805
+    },
+    "harmonic_EM": 78.47725775240771,
+    "balanced_EM": 78.89635943816202
+  }
+}

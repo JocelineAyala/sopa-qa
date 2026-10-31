@@ -1,0 +1,14 @@
+{
+  "model_path": "outputs\\roberta_squad2_v3\\modelo",
+  "null_threshold": -0.5847749710083008,
+  "null_rule": "return null if difference > null_threshold",
+  "difference": "minimum CLS score minus best span score",
+  "max_seq_length": 384,
+  "doc_stride": 128,
+  "max_answer_length": 30,
+  "top_k": 20,
+  "selection_metric": "Monitoring EM in both classes; retain V2 if either class worsens",
+  "source": "parent_v2",
+  "threshold_calibration_count": 1000,
+  "monitoring_count": 1000
+}

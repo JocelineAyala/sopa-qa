@@ -1,0 +1,72 @@
+{
+  "selected": "parent_v2",
+  "best_candidate_checkpoint": "C:\\proyecto-qa\\outputs\\roberta_squad2_v3\\checkpoint-500",
+  "best_candidate_monitoring_harmonic_EM": 78.61426256077795,
+  "baseline_v2": {
+    "overall": {
+      "count": 1000,
+      "EM": 78.6,
+      "F1": 80.93600634816877
+    },
+    "answerable": {
+      "count": 486,
+      "EM": 73.66255144032922,
+      "F1": 78.46914886454472
+    },
+    "unanswerable": {
+      "count": 514,
+      "EM": 83.26848249027238,
+      "F1": 83.26848249027238
+    },
+    "harmonic_EM": 78.17152186112953,
+    "balanced_EM": 78.4655169653008
+  },
+  "candidate": {
+    "overall": {
+      "count": 1000,
+      "EM": 79.2,
+      "F1": 81.25251633542952
+    },
+    "answerable": {
+      "count": 486,
+      "EM": 73.25102880658436,
+      "F1": 77.4743134473858
+    },
+    "unanswerable": {
+      "count": 514,
+      "EM": 84.8249027237354,
+      "F1": 84.8249027237354
+    },
+    "harmonic_EM": 78.61426256077795,
+    "balanced_EM": 79.03796576515988
+  },
+  "selected_metrics": {
+    "overall": {
+      "count": 1000,
+      "EM": 78.6,
+      "F1": 80.93600634816877
+    },
+    "answerable": {
+      "count": 486,
+      "EM": 73.66255144032922,
+      "F1": 78.46914886454472
+    },
+    "unanswerable": {
+      "count": 514,
+      "EM": 83.26848249027238,
+      "F1": 83.26848249027238
+    },
+    "harmonic_EM": 78.17152186112953,
+    "balanced_EM": 78.4655169653008
+  },
+  "selected_threshold": -0.5847749710083008,
+  "global_step": 2500,
+  "training_metrics": {
+    "train_runtime": 1339.999,
+    "train_samples_per_second": 29.85,
+    "train_steps_per_second": 1.866,
+    "total_flos": 7838902702080000.0,
+    "train_loss": 0.720345817565918,
+    "epoch": 0.3034394865803887
+  }
+}

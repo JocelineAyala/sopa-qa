@@ -1,0 +1,100 @@
+{
+  "modelo": "C:\\proyecto-qa\\outputs\\roberta_squad2_v3\\modelo",
+  "umbral_actual": -0.5847749710083008,
+  "umbral_candidato": -0.5847625732421875,
+  "objetivo": "EM global; desempate F1; luego cercania al umbral actual",
+  "particiones": {
+    "calibracion": [
+      0,
+      1000
+    ],
+    "seguimiento": [
+      1000,
+      2000
+    ],
+    "seed": 42
+  },
+  "resultados": {
+    "calibracion": {
+      "actual": {
+        "overall": {
+          "count": 1000,
+          "EM": 81.1,
+          "F1": 84.00435070525161
+        },
+        "answerable": {
+          "count": 493,
+          "EM": 75.45638945233266,
+          "F1": 81.34756735345161
+        },
+        "unanswerable": {
+          "count": 507,
+          "EM": 86.58777120315582,
+          "F1": 86.58777120315582
+        },
+        "harmonic_EM": 80.63975350034934,
+        "balanced_EM": 81.02208032774425
+      },
+      "candidato": {
+        "overall": {
+          "count": 1000,
+          "EM": 81.1,
+          "F1": 84.07101737191827
+        },
+        "answerable": {
+          "count": 493,
+          "EM": 75.45638945233266,
+          "F1": 81.48279385784646
+        },
+        "unanswerable": {
+          "count": 507,
+          "EM": 86.58777120315582,
+          "F1": 86.58777120315582
+        },
+        "harmonic_EM": 80.63975350034934,
+        "balanced_EM": 81.02208032774425
+      }
+    },
+    "seguimiento": {
+      "actual": {
+        "overall": {
+          "count": 1000,
+          "EM": 78.6,
+          "F1": 80.93600634816877
+        },
+        "answerable": {
+          "count": 486,
+          "EM": 73.66255144032922,
+          "F1": 78.46914886454472
+        },
+        "unanswerable": {
+          "count": 514,
+          "EM": 83.26848249027238,
+          "F1": 83.26848249027238
+        },
+        "harmonic_EM": 78.17152186112953,
+        "balanced_EM": 78.4655169653008
+      },
+      "candidato": {
+        "overall": {
+          "count": 1000,
+          "EM": 78.6,
+          "F1": 80.93600634816877
+        },
+        "answerable": {
+          "count": 486,
+          "EM": 73.66255144032922,
+          "F1": 78.46914886454472
+        },
+        "unanswerable": {
+          "count": 514,
+          "EM": 83.26848249027238,
+          "F1": 83.26848249027238
+        },
+        "harmonic_EM": 78.17152186112953,
+        "balanced_EM": 78.4655169653008
+      }
+    }
+  },
+  "nota": "Particiones de desarrollo reutilizadas. No es un test independiente. No se cambia la API."
+}
