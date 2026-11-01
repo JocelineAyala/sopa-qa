@@ -1,0 +1,706 @@
+{
+  "temporary_copy": "C:\\Users\\Joceline Ayala\\AppData\\Local\\Temp\\sopa-qa-clean-jupypa0a",
+  "source_commit": "13b9c45ed6043f117aa89f4015c5faa3a9c8aed3",
+  "copied_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "d57c7dff4b82d8428c0036418c832553b6e5b211ee0aa97d41226881ae72fbe5"
+    },
+    {
+      "path": "Guía_de_trabajo_APIs_and_NLP.pdf",
+      "sha256": "0e894ec98c90f89b9b1e0f99b702329912310977c686a8d2388fe5cc59ea986d"
+    },
+    {
+      "path": "README.md",
+      "sha256": "18388b2aeae0062c4b3f8b3efeccfee6706c905fe3c51ae28fbb85b6d0f85b8b"
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "96fbee9ad30652178869847e9e0292c62bf0817cf2799dc6074f4289fd0e578b"
+    },
+    {
+      "path": "REPORT_TEMPLATE.md",
+      "sha256": "6f8dec0a8a1360c1ecfb1c9ae10c81d016ec4eada7c7eaa5e92969267790e6c0"
+    },
+    {
+      "path": "app.py",
+      "sha256": "69300dd9461ac2ecf4691ca2ac9dc46a0435ac923c8a61a73d5cf8b02d2bfa80"
+    },
+    {
+      "path": "comparar_modelos.py",
+      "sha256": "653c64d3d704a8679f6e264bd062d38ad268521af8fd3cf78e99b9d2122f5112"
+    },
+    {
+      "path": "descargar.py",
+      "sha256": "9a15ee6c4ca26be01196a65acfed6c739033538b7840798a0e200b36c2813745"
+    },
+    {
+      "path": "logs/comparacion_diagnostica.json",
+      "sha256": "d2503f266f4f8a28b330209d95899855c5acabbbac590eb0a0b441882a8a788f"
+    },
+    {
+      "path": "logs/roberta_squad2/api_local.json",
+      "sha256": "f58171743d120a36ef8f0f7f1859f387e9fc00c60c1c023f6001e409665b234a"
+    },
+    {
+      "path": "logs/roberta_squad2/api_tunel.json",
+      "sha256": "7bb0d500dfd53d98ee058c704a023be62ebfb98188382949eb09db8549fdd319"
+    },
+    {
+      "path": "logs/roberta_squad2/configuracion.json",
+      "sha256": "3afa3f8b4a3df8c404eadf9553c88d644a06dea3f3ef50c9599543b682c774f2"
+    },
+    {
+      "path": "logs/roberta_squad2/historial.json",
+      "sha256": "7af96d445da8e8b3b0fcb53d488f440236f585499e9d0838ddc64e1da98cd3cf"
+    },
+    {
+      "path": "logs/roberta_squad2/loss.png",
+      "sha256": "0327822044c6ec84f62c8c90b3cf3621f7b43c5fd9bd093f1b1ed39373712f04"
+    },
+    {
+      "path": "logs/roberta_squad2/metricas.json",
+      "sha256": "0d50d53eda631826e9593452b381172fe3390d70007d1394a507a6b734a07380"
+    },
+    {
+      "path": "logs/roberta_squad2/metricas_umbral_final.json",
+      "sha256": "fb52e39134df051e07a34fe0396061ba061704092a92fcd73c4469d64253a776"
+    },
+    {
+      "path": "logs/roberta_squad2/public_sample_inicial.json",
+      "sha256": "bbd7180d8761b941a74818b55c06fc477f8f1703089ec3d2577e82b8cb22c742"
+    },
+    {
+      "path": "logs/roberta_squad2/umbral.json",
+      "sha256": "a534d0b2cb0eda484e5aa2d7a4e89f847bbffc04c277f4d6c04206550068c47a"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/configuracion.json",
+      "sha256": "310ce2b37fce3bdb0a5a842999fd162b7cfe33b33df7a7c7998314262a8744d3"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/historial.json",
+      "sha256": "16375d7935d141e3ec7f5fa8a697f82d96256dcb7665ea2a806a5f864b024341"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/loss.png",
+      "sha256": "eb0e3398dd212dbe62bf64a32f10f24b21a7344eff04e4e9d0776744cd241a46"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/metricas.json",
+      "sha256": "ba5bb33f5461604c68732fe507db8c86eede45060641928d64c6003b2d707647"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/metricas_umbral_final.json",
+      "sha256": "f9a0a6167ae67ea5332eb786c1a7b859cf0a2a8905943aa7b1abdf5b5a9087c2"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/public_sample_inicial.json",
+      "sha256": "a17528638437cbc2ed49367d888e09031a1289a9b33dfbd532097159a37aab62"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/resumen.json",
+      "sha256": "a22478312e009d5b405a13f631ef92854859043334e628a915804d23f42a88bf"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/umbral.json",
+      "sha256": "7e00b0cc1c760976d5380e02ef4a81c7be51947aa1b2b3d3545957d636f0f720"
+    },
+    {
+      "path": "logs/roberta_squad2_v2/umbral_75_25.json",
+      "sha256": "37fc211454e55fd14539db16261ba9bf7f1cc045a9c22057c74fbca352f9eb9d"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/baseline_v2.json",
+      "sha256": "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/calidad.png",
+      "sha256": "38a3f8a9850a417c6a1e8fa4d050a17f3e0b86d0608101f6bf5a4e0b71a121e3"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/calidad_por_checkpoint.jsonl",
+      "sha256": "bdb25ff12d3f361fcb405f0881d7f3a9e952a21fd9c3b207f2b69131e0c7af9a"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/comparacion_umbrales_v2/comparacion.json",
+      "sha256": "5336eecdc7a2d8a891ee58a8371f5b217271d59014d17fa698f9e677a193574b"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/comparacion_umbrales_v2/comparacion.txt",
+      "sha256": "a3974e12817c88a3cb0b7d740c0fa423556f87fd9c8f627323e839061bd5f6ce"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/comparacion_umbrales_v2/umbral_candidato_em.json",
+      "sha256": "4f745095a98846dd33c2797a92508f06d108527c8031022ad3b777f19e297c91"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/configuracion.json",
+      "sha256": "57ca9c8757b9536c8c3710b7986d44fe4c13b9516984f82425a050b82ef0d63c"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/diagnostico_v2/errores_v2.json",
+      "sha256": "a8463be7a0a8ef51d656b20aed6c613c50776daaa52a8936d1a1bde84af5859c"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/diagnostico_v2/errores_v2.txt",
+      "sha256": "f14f8900e20d3e7446c4d2d6b4845abdc395ae85588741e7c58b1a4371df2c7c"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/historial.json",
+      "sha256": "63a58a7daff2316bc940f9823f3ec6018c4cd87295ccc9c93c395bce87c4c1ee"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/loss.png",
+      "sha256": "9f003c68796918b9d52070a86adea35d89826dc32c60a56593ee222ea1bb8197"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/metricas_candidato_9873.json",
+      "sha256": "3ae3a9142bce6b1002a72ff770d08ae086100ff69e185b18eb6281c1f86c6e0d"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/metricas_evaluacion.json",
+      "sha256": "f42e662a5eefd20657c33a3cb25495b435355b1339508b6cb9b0883643a8890d"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/particiones.json",
+      "sha256": "c4d223247bd3a9cbf7a17c830c95a96fac75bdbe59021951fc9409d21fdb1c8f"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/resumen.json",
+      "sha256": "8e170f7b33e14faf04a2d0cd06d144d9c794848deb393a34c8bd96b29dd4f540"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/umbral.json",
+      "sha256": "eb3589de9417e2ae47777c0beb2c51db7804c810ca110a547b0ecb30ec9d0793"
+    },
+    {
+      "path": "logs/roberta_squad2_v3/umbral_candidato.json",
+      "sha256": "c1c0d65e0069a08e4d91ac1a59d399e538044df2c0c670978a6ec51450e2662d"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/baseline_v2.json",
+      "sha256": "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/calidad.png",
+      "sha256": "5d2e4196a584783108fcc824e34b17b98bc4ea450583f77172e4ff8df2fb0c35"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/calidad_por_checkpoint.jsonl",
+      "sha256": "3deaab7a09a2145f40a0c891e4b35c4421d91e60d768514c850780267313be40"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/comprobacion_fusion.json",
+      "sha256": "fc114a583ebb048856ca6e218e42dbaa4f1097ba9a01f646a1b0ad279f094c8e"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/configuracion.json",
+      "sha256": "85d663a519cabfd99db344e6591f52766ca8c33f0e83e26bd221320705ad9f53"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/evaluacion_9873_candidato.json",
+      "sha256": "d6feb51cf77cdd419778709a2a500d5622a848e6a5c3885515bbb06cc2f08688"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/historial.json",
+      "sha256": "2e7837b91532fec6e2dceb69c7e9c397692e5b62f1c4fb8a96f6a176a5014fde"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/loss.png",
+      "sha256": "c45a6b63a1fa23ff310889244c91227f2ad1208739552fb1330fc06ca0127ffd"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/particiones.json",
+      "sha256": "c4d223247bd3a9cbf7a17c830c95a96fac75bdbe59021951fc9409d21fdb1c8f"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/resumen.json",
+      "sha256": "a5d9985c8f3a7a2930b4f26b4f30415870369e0899b5acb6edf465771055efb3"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/umbral.json",
+      "sha256": "1fb8e9844b1662dd9b2215346951118b27d86a61b99f00c790d656230904016e"
+    },
+    {
+      "path": "logs/roberta_squad2_v4_lora/umbral_candidato.json",
+      "sha256": "658bd863457496a423238e44003a76745c9f7fd8f1a4cac659125c517dd84425"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/baseline_v2.json",
+      "sha256": "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/configuracion.json",
+      "sha256": "d9a1bb528381d3e486c194796d1f078c814a5fa658d3c9485a3ba49f67f0df3d"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/historial.json",
+      "sha256": "a4677dd1627fbb1a15751cdc1ff80d46ecdd7507c2af4194416efc9499028970"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/loss.png",
+      "sha256": "026227dc0e6f45df555224ced28f39c00e81dba2b98ec5d993c1cf72d6633bfd"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/metricas_evaluacion.json",
+      "sha256": "59a20a8decc2ad55cfee11d5540e9f709f33f70e6f98d1c34e867b1fcfe986d9"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/particiones.json",
+      "sha256": "c1a48e02d5f21fb426afda586cf029658b721f5f7d2ece356d47ba152b4a8cf5"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/resumen.json",
+      "sha256": "31390c6b1f3905edd8a8f48d0637c38b02d8c3f1c682dfbe6d72e076338c1883"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/umbral.json",
+      "sha256": "83726f16a90cc33fb6e32ec7de3a33a83f5a3f7a32b89f0abde8c8bb3209c19a"
+    },
+    {
+      "path": "logs/roberta_squad2_v5_rapido/umbral_candidato.json",
+      "sha256": "83726f16a90cc33fb6e32ec7de3a33a83f5a3f7a32b89f0abde8c8bb3209c19a"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/baseline_v2.json",
+      "sha256": "e952fcc700520aa6b5f803d3912c747feffe157d34622d18d2df944a3a217099"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/configuracion.json",
+      "sha256": "32aa2913c7b018ea2b952019d71371bad841f727fcac912fb7bfcc205b48ab1c"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/historial.json",
+      "sha256": "f8aa6fc997ce038c174afa45d09a59c7ed95f3b56a456e3ef3cd6ffcc1e48e75"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/loss.png",
+      "sha256": "47391f5fcc03ba600e696a7b0666519fe1262a83d899fd940dca27101400d42e"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/particiones.json",
+      "sha256": "c1a48e02d5f21fb426afda586cf029658b721f5f7d2ece356d47ba152b4a8cf5"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/resumen.json",
+      "sha256": "d4676360569343fc0b4b5a871e94792d960d41f9f4c169d62b0624e8dd0a802b"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/umbral.json",
+      "sha256": "e15c9cba56f2d766a2fc875c5242ccc202060dfab08cade0bf57790028f895ba"
+    },
+    {
+      "path": "logs/roberta_squad2_v6/umbral_candidato.json",
+      "sha256": "d79fe991125c8a9c5d172c221e763c05fddac224d991ffea06fb92c7344aaa3e"
+    },
+    {
+      "path": "probar_api.py",
+      "sha256": "0fcee4838e163fac33df16c0749ec543c66dff329e32e88be5fba6ddda3759eb"
+    },
+    {
+      "path": "probar_velocidad.py",
+      "sha256": "af17895d9039e8abfac0489d1f2c06c5675e2dfcd5dc319e6eaf1e4e4e7e7df0"
+    },
+    {
+      "path": "project_paths.py",
+      "sha256": "06b5a338d4e0196a0f5bdb101ae9952db7443aa7e72d81dc227a524114166f74"
+    },
+    {
+      "path": "public_sample.json",
+      "sha256": "3d823617676453f7c0a87a09fa9e68b168a7766aa11a1b8cc07f39a0a8253a94"
+    },
+    {
+      "path": "qa_api_contract.yaml",
+      "sha256": "1b0b49382be06f589157b5b11d46cb0da1afd92aef236bd763986c23952673aa"
+    },
+    {
+      "path": "qa_v3.py",
+      "sha256": "c0d24f4f1300589a9f09a46a25f7c256f41f9a194adbff3f383fffc4cce99bb0"
+    },
+    {
+      "path": "request.json",
+      "sha256": "d76d413337f657be4abc5cba875137173de4a80e89fcfc9559a459aee0d40c07"
+    },
+    {
+      "path": "verificaciones/archivos_protegidos.json",
+      "sha256": "522c82cd76dabde49e8103f912f82a47fe9c8b93325ef17316cafa78b75e546c"
+    },
+    {
+      "path": "verificaciones/dependencias.json",
+      "sha256": "4df5534b427301edadb1cf3507df88813541890101f8953d629d5b84f92349ef"
+    },
+    {
+      "path": "verificaciones/resultado.json",
+      "sha256": "fd116119843400028c2e343fe9a4f92a34bc13e634d39896fed50042e263fc3a"
+    },
+    {
+      "path": "verificaciones/revision_git.json",
+      "sha256": "3b85bfb2b63d0a2fc4823bf6b789969ea7f5add795fd2efa1269be05470b4ae0"
+    },
+    {
+      "path": "verificar_organizacion.py",
+      "sha256": "5a4e4e3c43c5c2beae9b032e4df7797919447a7de828468cac206413fa0fcf09"
+    },
+    {
+      "path": "versiones/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v1/README.md",
+      "sha256": "05af50e9ee85895802aac9d2d904d6c191968f912e94cf46f0ab2b3acc5d83f1"
+    },
+    {
+      "path": "versiones/v1/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v1/app_historica.py",
+      "sha256": "323e23740f049e163cba7ba30cb143e97313ce6e390cb96d991686ab4fc6c3ef"
+    },
+    {
+      "path": "versiones/v1/elegir_umbral.py",
+      "sha256": "263ff6a8b9e5917c07217e0b2a41542ae35447b2c51614920cad676c713ed509"
+    },
+    {
+      "path": "versiones/v1/entrenar.py",
+      "sha256": "778c15a3e2a9434caf6d252cecd4955b3f3c621d7c7e0dc72e8b9ca4edc4d636"
+    },
+    {
+      "path": "versiones/v1/evaluar.py",
+      "sha256": "35cdfc5738bf03dc7a24e2055b92feb194ca844964e6b6ccd76933918c6f0321"
+    },
+    {
+      "path": "versiones/v1/probar_entrenamiento.py",
+      "sha256": "2f514ef0ef503534b281abb803b9a141a54bc6ad342d3875633b13127b934613"
+    },
+    {
+      "path": "versiones/v1/probar_modelo.py",
+      "sha256": "879710f7677aa648681b224dbc7e6c92965dac231b89b58bd79ed01a60dd89a3"
+    },
+    {
+      "path": "versiones/v2/README.md",
+      "sha256": "be501d4d73f57662620a4d21ef3f536fe6801846f4de666d92bfccc2a369db3a"
+    },
+    {
+      "path": "versiones/v2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v2/analizar_errores_v2.py",
+      "sha256": "cb2da9b8104d931462d2fb3873f37a9e64e38d2a066de1f52a03711460be5c75"
+    },
+    {
+      "path": "versiones/v2/comparar_umbrales_v2.py",
+      "sha256": "794912222ea010a7a26a372d9004d734320a2757870beaadb6ded1987fbcbe64"
+    },
+    {
+      "path": "versiones/v2/elegir_umbral_v2.py",
+      "sha256": "af78e70c496a7f650ea0e285e89b53f9d1d07dfbb0ccc655870e7dafd2700028"
+    },
+    {
+      "path": "versiones/v2/entrenar_v2.py",
+      "sha256": "9cee43fd8b24218089ae07c2ba756b29978cf9fdeb27f4ad87e1ddf6c09250c3"
+    },
+    {
+      "path": "versiones/v2/evaluar_v2.py",
+      "sha256": "0b2d2f4994fd1036221b573eaca38eee02cfe73569869e53ff9c01afaf83fdd6"
+    },
+    {
+      "path": "versiones/v2/preparar_v2.py",
+      "sha256": "1f0921c703070a775706f5f1823f2d9180df65c354be71b35394032a77fb8223"
+    },
+    {
+      "path": "versiones/v2/probar_modelo_v2.py",
+      "sha256": "f0e455d90cf37df46103de1f17f4fc84b50c13375b516d1847ffcf575d7d0ae4"
+    },
+    {
+      "path": "versiones/v3/README.md",
+      "sha256": "39a99543fe171b3e4a2b1fd23937dce2fcfc31058f677c71619fccb52c8fba6c"
+    },
+    {
+      "path": "versiones/v3/README_V3.md",
+      "sha256": "30fd3a8ba6ec6b72e6f9771698b6b4c33000056975e53231b4b0042672fb2e53"
+    },
+    {
+      "path": "versiones/v3/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v3/entrenar_v3.py",
+      "sha256": "7451d76e4cf13b8d681e75d86d9b954ac3b3987861ac624fe7614f60744eb393"
+    },
+    {
+      "path": "versiones/v3/evaluar_v3.py",
+      "sha256": "3b73c01dcfcb10a3ca4f172cd13b602b090ef9609f5abeb91772038eb6e86728"
+    },
+    {
+      "path": "versiones/v4_lora/README.md",
+      "sha256": "1acb2e64577054ab268c5d3204891d2bf9c5a3532f2b7fbb053fb58457866a60"
+    },
+    {
+      "path": "versiones/v4_lora/README_V4.md",
+      "sha256": "922e1978faaa4186b2cf49760138e69e1e5f33345df65be0b85918f10b506b38"
+    },
+    {
+      "path": "versiones/v4_lora/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v4_lora/entrenar_v4.py",
+      "sha256": "45930305ccecb34ae50b30dde43081aff9bcef636e27ba34e6d6b648b59a1137"
+    },
+    {
+      "path": "versiones/v4_lora/evaluar_v4.py",
+      "sha256": "e4137ccb5a8265afb4c9bee9002465fa2273f8cea14489a1117414377c289ddb"
+    },
+    {
+      "path": "versiones/v4_lora/finalizar_v4.py",
+      "sha256": "0b527c3ce3539aed5e59756de14903f24060a67402653e6660a1061bcd191d67"
+    },
+    {
+      "path": "versiones/v4_lora/qa_v4.py",
+      "sha256": "eca1714698d359dacc570d4ec92c1971c479e87272d64ce2d78af6a1e885a130"
+    },
+    {
+      "path": "versiones/v5/README.md",
+      "sha256": "30ce6244d88c1216b87902b6e23d5688538230aaa62ba8ad66f8491eda501a24"
+    },
+    {
+      "path": "versiones/v5/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v5/entrenar_v5_rapido.py",
+      "sha256": "1e12f2f7f613d53792e66e4b7d7594c2815825e52c252c6cb7a3004b39960ded"
+    },
+    {
+      "path": "versiones/v6/README.md",
+      "sha256": "bdc13cc2ff0451fbf7f41ecdda62b00bfd636bbbb36fa0d9dc787f6255aadbec"
+    },
+    {
+      "path": "versiones/v6/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "versiones/v6/entrenar_v6.py",
+      "sha256": "0d4d6e2ec743c85c16695b5e668cc4aeb14bcff7088275ef8803f6573211acab"
+    }
+  ],
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "phases": {
+    "prepare": "ok",
+    "venv": "ok",
+    "install": "ok",
+    "download": "ok",
+    "test": "ok"
+  },
+  "note": "Tracked working-tree files plus updated REPORT.md; no original weights or environment copied.",
+  "install_command": [
+    "C:\\Users\\Joceline Ayala\\AppData\\Local\\Temp\\sopa-qa-clean-jupypa0a\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--index-url",
+    "https://pypi.org/simple",
+    "torch",
+    "transformers",
+    "safetensors",
+    "numpy",
+    "datasets",
+    "tqdm",
+    "fastapi",
+    "pydantic>=2",
+    "uvicorn"
+  ],
+  "installed_packages": [
+    "aiohappyeyeballs==2.7.1",
+    "aiohttp==3.14.5",
+    "aiosignal==1.4.0",
+    "annotated-doc==0.0.5",
+    "annotated-types==0.8.0",
+    "anyio==4.16.0",
+    "attrs==26.1.0",
+    "click==8.5.0",
+    "colorama==0.4.6",
+    "datasets==5.1.0",
+    "dill==0.4.1",
+    "fastapi==0.162.0",
+    "filelock==4.2.6",
+    "frozenlist==1.8.0",
+    "fsspec==2026.7.0",
+    "h11==0.16.0",
+    "hf-xet==1.8.0",
+    "httpcore2==2.16.0",
+    "httpx2==2.16.0",
+    "huggingface_hub==2.4.0",
+    "idna==3.20",
+    "Jinja2==3.1.6",
+    "markdown-it-py==4.2.0",
+    "MarkupSafe==3.0.4",
+    "mdurl==0.1.2",
+    "mpmath==1.3.0",
+    "multidict==7.2.1",
+    "multiprocess==0.70.19",
+    "networkx==3.7",
+    "numpy==2.5.4",
+    "opentelemetry-api==1.45.2",
+    "packaging==26.3",
+    "pandas==3.1.0",
+    "propcache==0.5.4",
+    "pyarrow==26.0.0",
+    "pydantic==2.14.2",
+    "pydantic_core==2.50.2",
+    "Pygments==2.21.0",
+    "python-dateutil==4.0.0",
+    "PyYAML==6.0.3",
+    "regex==2026.9.29",
+    "rich==15.0.0",
+    "safetensors==0.8.0",
+    "setuptools==84.2.1",
+    "shellingham==1.5.4",
+    "starlette==1.10.0",
+    "sympy==1.14.0",
+    "tokenizers==0.23.3",
+    "torch==2.15.0",
+    "tqdm==4.70.1",
+    "transformers==5.22.1",
+    "truststore==0.10.5",
+    "typer==0.27.3",
+    "typing-inspection==0.4.4",
+    "typing_extensions==4.16.0",
+    "tzdata==2026.6",
+    "uvicorn==0.54.0",
+    "xxhash==4.0.2",
+    "yarl==1.25.1"
+  ],
+  "asset": {
+    "url": "https://github.com/JocelineAyala/sopa-qa/releases/download/modelo-v2/sopa-qa-v2-modelo.zip",
+    "bytes": 457206335,
+    "sha256": "e5a0eacd15ce2f93db653325188ab098fcce391b915de8be91e3db44d7be36d3"
+  },
+  "zip_members": [
+    "modelo/config.json",
+    "modelo/model.safetensors",
+    "modelo/tokenizer.json",
+    "modelo/tokenizer_config.json",
+    "modelo/training_args.bin"
+  ],
+  "documented_extraction_path_exists": false,
+  "zip_layout_correction": "ZIP contains modelo/: extract into outputs/roberta_squad2_v2, not the project root.",
+  "verified_at_utc": "2026-11-01T20:41:36.964125+00:00",
+  "pip_check": "No broken requirements found.",
+  "isolated_site_packages": true,
+  "temporary_server_pid": 37204,
+  "temporary_server_stopped": true,
+  "tests": {
+    "health": {
+      "status": 200,
+      "body": {
+        "status": "ok"
+      }
+    },
+    "authentication": [
+      {
+        "path": "/info",
+        "case": "missing",
+        "status": 401
+      },
+      {
+        "path": "/info",
+        "case": "invalid",
+        "status": 401
+      },
+      {
+        "path": "/predict",
+        "case": "missing",
+        "status": 401
+      },
+      {
+        "path": "/predict",
+        "case": "invalid",
+        "status": 401
+      }
+    ],
+    "info": {
+      "team": "sopa",
+      "model": "FacebookAI/roberta-base",
+      "params": 124056578,
+      "max_seq_length": 384,
+      "doc_stride": 128
+    },
+    "samples": [
+      {
+        "id": "sample-01",
+        "response": {
+          "id": "sample-01",
+          "answer": "16",
+          "start": 383,
+          "score": 0.9711241727579882
+        },
+        "contract_valid": true,
+        "reference_match": true,
+        "seconds": 0.28765229997225106
+      },
+      {
+        "id": "sample-02",
+        "response": {
+          "id": "sample-02",
+          "answer": "3.5 days",
+          "start": 437,
+          "score": 0.9996013117286333
+        },
+        "contract_valid": true,
+        "reference_match": true,
+        "seconds": 0.22681340004783124
+      },
+      {
+        "id": "sample-03",
+        "response": {
+          "id": "sample-03",
+          "answer": null,
+          "start": null,
+          "score": 0.9999999670786237
+        },
+        "contract_valid": true,
+        "reference_match": true,
+        "seconds": 0.2184509999351576
+      },
+      {
+        "id": "sample-04",
+        "response": {
+          "id": "sample-04",
+          "answer": "3 times",
+          "start": 310,
+          "score": 0.6330837928725552
+        },
+        "contract_valid": true,
+        "reference_match": false,
+        "seconds": 0.2296650999924168
+      },
+      {
+        "id": "sample-05",
+        "response": {
+          "id": "sample-05",
+          "answer": "50,257",
+          "start": 3157,
+          "score": 0.7438667336655648
+        },
+        "contract_valid": true,
+        "reference_match": true,
+        "seconds": 0.6519944000756368
+      }
+    ],
+    "incomplete_request": {
+      "status": 422,
+      "body": {
+        "error": "bad_request",
+        "detail": "Invalid JSON body, fields, types or lengths."
+      }
+    },
+    "contract_valid": 5,
+    "reference_matches": 4,
+    "mean_latency_ms": 322.9152400046587
+  }
+}

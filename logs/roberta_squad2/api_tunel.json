@@ -1,5 +1,5 @@
 {
-  "base_url": "https://engines-treating-game-zus.trycloudflare.com",
+  "base_url": "https://metaphorically-spoollike-wan.ngrok-free.dev",
   "results": [
     {
       "id": "sample-01",
@@ -11,7 +11,7 @@
       },
       "contract_valid": true,
       "reference_match": true,
-      "seconds": 0.26832579995971173
+      "seconds": 1.5227108999388292
     },
     {
       "id": "sample-02",
@@ -23,7 +23,7 @@
       },
       "contract_valid": true,
       "reference_match": true,
-      "seconds": 0.26852809998672456
+      "seconds": 0.7056671000318602
     },
     {
       "id": "sample-03",
@@ -35,7 +35,7 @@
       },
       "contract_valid": true,
       "reference_match": true,
-      "seconds": 0.24498590000439435
+      "seconds": 0.7490749999415129
     },
     {
       "id": "sample-04",
@@ -47,7 +47,7 @@
       },
       "contract_valid": true,
       "reference_match": false,
-      "seconds": 0.2809935000259429
+      "seconds": 0.7426922000013292
     },
     {
       "id": "sample-05",
@@ -59,7 +59,7 @@
       },
       "contract_valid": true,
       "reference_match": true,
-      "seconds": 0.5430869000265375
+      "seconds": 1.5376800999511033
     }
   ]
 }
